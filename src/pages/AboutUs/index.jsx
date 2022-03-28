@@ -113,7 +113,7 @@ function Projects() {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Perferendis incidunt molestias omnis quae. Pariatur exercitationem
               corrupti quis ducimus quisquam. Quod sint minima enim similique
-              laborum ullam ad commodi inventore assumenda.
+              laborum ullam ad commodi inventore assumenda. XD
             </p>
           </WrapperFeature>
         </WrapperReverse>
