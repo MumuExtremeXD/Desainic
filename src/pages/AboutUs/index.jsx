@@ -45,7 +45,7 @@ function Projects() {
 
       <ContentDivider>
         <WrapperText>
-          <p>We Do Brandings</p>
+          <p>Nossa História</p>
 
           <p>
             We’re a small creative design studio based in New York, working with
