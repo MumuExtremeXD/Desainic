@@ -261,6 +261,8 @@ export const WrapperProducts2 = styled.div`
   }
 
   @media (max-width: 672px) {
+    margin-bottom: 55px;
+
     > h2 {
       font-size: 1.9em;
       line-height: 40px;
@@ -340,9 +342,7 @@ export const WrapperText = styled.div`
 
     @media (max-width: 600px) {
       padding: 15px 22px;
-      font-size: 1em;
-
-      text-align: justify;
+      font-size: 1.1em;
     }
   }
 

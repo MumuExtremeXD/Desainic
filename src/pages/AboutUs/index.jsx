@@ -5,21 +5,18 @@ import { Link } from "react-router-dom";
 import {
   Container,
   Content,
-  ContentExplication,
   ContentDivider,
-  ContainerHalf,
   ContainerHalfText,
+  ContainerHalfText2,
   WrapperText,
-  WrapperNormal,
-  WrapperReverse,
-  WrapperImg,
-  WrapperFeature,
 } from "./styles";
+
+import VideoQually from "../../videos/Sobrenos.mp4";
+
+import QuallyGrama from "../../images/poster.webp";
 
 import Header from "../../components/Headers/Header";
 import Footer from "../../components/Footer";
-
-import ImgTeste from "../../images/esmeralda.webp";
 
 function Projects() {
   return (
@@ -31,93 +28,59 @@ function Projects() {
           <h2>Nossa História</h2>
 
           <p>
-            Desde 1999 no mercado, a Qually Grama é uma empresa especializada na
-            produção de gramas. Investimos constantemente em tecnologia de
-            ponta, do cultivo à entrega, atendemos clientes de todo território
-            nacional.
+            Fundada em <label>1999</label>, no interior de São Paulo na cidade
+            de Tatuí, a <label>Qually Grama</label> iniciou o seu cultivo de
+            grama com a Esmeralda que hoje é a espécie mais comercializada do
+            país, com a ambição de entregar a maior qualidade do mercado do
+            agronegócio. Com o sonho e dedicação desenvolvemos novas técnicas de
+            cultivo, para alcançar sustentabilidade, excelência e agilidade.
+            Atualmente a <label>Qually Grama</label> comercializa seis
+            variedades diferentes, sendo a Discovery nossa exclusividade ao ser
+            produzida apenas por nós.
+          </p>
+
+          <p>
+            <label> Nosso compromisso</label> é trabalhar ecologicamente,
+            economicamente, socialmente e culturalmente correto. Nosso primeiro
+            escritório funcionava com apenas um colaborador, sendo ele o próprio
+            fundador
+            <label> Isaac Bueno de Miranda</label>, que hoje é o nosso
+            presidente. Atualmente contamos com{" "}
+            <label>
+              mais de 2 filiais e mais de 100 funcionários capacitados
+            </label>
+            .
           </p>
         </ContainerHalfText>
-
-        <ContainerHalf>
-          <img src={ImgTeste} alt="ts" loading="lazy" />
-        </ContainerHalf>
       </Content>
 
       <ContentDivider>
         <WrapperText>
-          <p>Nossa História</p>
+          <h3>Momentos que estamos com você</h3>
 
-          <p>
-            We’re a small creative design studio based in New York, working with
-            adventurous clients and providing Creative Concept, Branding,
-            Graphic Design, Art Direction and Digital Communication services.
-          </p>
+          <video controls loop poster={QuallyGrama} src={VideoQually}>
+            <p>Seu navegador não suporta esse formato de vídeo.</p>
+          </video>
 
-          <Link to={""}>Faça parte do nosso time</Link>
+          <Link to={"../gramas"}>Torne o mundo mais verde</Link>
         </WrapperText>
       </ContentDivider>
 
-      <ContentExplication>
-        <WrapperNormal>
-          <WrapperImg>
-            <img src={ImgTeste} alt="ts" loading="lazy" />
-          </WrapperImg>
+      <ContainerHalfText2>
+        <h4>Nosso Propósito</h4>
 
-          <WrapperFeature>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Perferendis incidunt molestias omnis quae. Pariatur exercitationem
-              corrupti quis ducimus quisquam. Quod sint minima enim similique
-              laborum ullam ad commodi inventore assumenda.
-            </p>
-          </WrapperFeature>
-        </WrapperNormal>
+        <p>Para nós a grama representa a vida.</p>
 
-        <WrapperReverse>
-          <WrapperImg>
-            <img src={ImgTeste} alt="ts" loading="lazy" />
-          </WrapperImg>
+        <p>São pessoas trabalhando juntas por um mundo melhor.</p>
 
-          <WrapperFeature>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Perferendis incidunt molestias omnis quae. Pariatur exercitationem
-              corrupti quis ducimus quisquam. Quod sint minima enim similique
-              laborum ullam ad commodi inventore assumenda.
-            </p>
-          </WrapperFeature>
-        </WrapperReverse>
+        <p>É se sentir leve e confortável com a natureza.</p>
 
-        <WrapperNormal>
-          <WrapperImg>
-            <img src={ImgTeste} alt="ts" loading="lazy" />
-          </WrapperImg>
+        <p>Mas acima de tudo, é a construção de momentos, como</p>
 
-          <WrapperFeature>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Perferendis incidunt molestias omnis quae. Pariatur exercitationem
-              corrupti quis ducimus quisquam. Quod sint minima enim similique
-              laborum ullam ad commodi inventore assumenda.
-            </p>
-          </WrapperFeature>
-        </WrapperNormal>
+        <p>uma risada, um jogo ou uma brincadeira.</p>
 
-        <WrapperReverse>
-          <WrapperImg>
-            <img src={ImgTeste} alt="ts" loading="lazy" />
-          </WrapperImg>
-
-          <WrapperFeature>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Perferendis incidunt molestias omnis quae. Pariatur exercitationem
-              corrupti quis ducimus quisquam. Quod sint minima enim similique
-              laborum ullam ad commodi inventore assumenda. XD
-            </p>
-          </WrapperFeature>
-        </WrapperReverse>
-      </ContentExplication>
+        <h5>Nascemos e crescemos por você! </h5>
+      </ContainerHalfText2>
 
       <Footer />
     </Container>

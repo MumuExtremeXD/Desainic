@@ -65,6 +65,10 @@ export const Content = styled.div`
   align-items: center;
   justify-content: space-between;
 
+  @media (max-width: 768px) {
+    padding: 15px 15px 15px 5px;
+  }
+
   @media (max-width: 425px) {
     padding: 15px 18px 15px 10px;
   }
@@ -112,7 +116,7 @@ export const Content = styled.div`
 export const DivMenuDesktop = styled.div`
   display: none;
 
-  @media (min-width: 769px) {
+  @media (min-width: 770px) {
     display: inline-flex;
   }
 `;

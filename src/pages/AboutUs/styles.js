@@ -15,14 +15,14 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   width: 100%;
-  max-width: 1240px;
+  max-width: 1440px;
 
   display: flex;
   justify-content: center;
 
   gap: 10px;
   margin-top: 145px;
-  padding: 0px 20px;
+  padding: 0px;
 
   @media (max-width: 640px) {
     flex-wrap: wrap;
@@ -36,18 +36,6 @@ export const Content = styled.div`
   }
 `;
 
-export const ContentExplication = styled.div`
-  width: 100%;
-  max-width: 1240px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  gap: 10px;
-  margin-bottom: 25px;
-`;
-
 export const ContentDivider = styled.div`
   width: 100%;
 
@@ -55,7 +43,7 @@ export const ContentDivider = styled.div`
   justify-content: center;
 
   gap: 10px;
-  margin-top: 65px;
+  margin-top: 45px;
   padding: 0px;
 
   @media (max-width: 685px) {
@@ -67,36 +55,70 @@ export const ContentDivider = styled.div`
   }
 `;
 
-export const ContainerHalf = styled.div`
-  flex: 1;
+export const ContainerHalfText = styled.div`
+  > h2 {
+    padding: 0 60px;
+    font-size: 6.4em;
+    color: var(--third);
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    text-align: center;
 
-  flex-direction: column;
+    margin-bottom: 15px;
 
-  max-width: 600px;
+    @media (max-width: 1024px) {
+      padding: 0 20px;
+    }
 
-  margin-top: 25px;
+    @media (max-width: 640px) {
+      padding: 0px 5px;
+    }
 
-  > img {
-    padding: 0px 20px;
-    width: 100%;
-    min-width: 300px;
+    @media (max-width: 415px) {
+      font-size: 4.4em;
+    }
+
+    @media (max-width: 350px) {
+      font-size: 2.3em;
+    }
+  }
+
+  > p {
+    font-size: 1.33em;
+    padding: 15px 60px;
+    text-align: justify;
+
+    text-align: center;
+
+    color: #888388;
+
+    > label {
+      color: var(--third);
+    }
+
+    @media (max-width: 1024px) {
+      padding: 15px 20px;
+    }
+
+    @media (max-width: 640px) {
+      padding: 15px 12px;
+
+      text-align: justify;
+    }
   }
 
   @media (max-width: 600px) {
-    margin-top: 45px;
+    margin-top: 35px;
   }
 `;
 
-export const ContainerHalfText = styled.div`
-  flex: 1;
+export const ContainerHalfText2 = styled.div`
+  margin: 40px 0px 160px;
 
-  > h2 {
+  > h4 {
     padding: 0 60px;
-    font-size: 2.4em;
+    font-size: 3.2em;
+
+    text-align: center;
 
     margin-bottom: 15px;
 
@@ -115,23 +137,39 @@ export const ContainerHalfText = styled.div`
   }
 
   > p {
-    font-size: 1.2em;
-    padding: 0 60px;
+    font-size: 1.6em;
+    padding: 12px 60px;
     text-align: justify;
+
+    text-align: center;
 
     color: #888388;
 
     @media (max-width: 1024px) {
-      padding: 0 20px;
+      padding: 8px 20px;
     }
 
     @media (max-width: 640px) {
-      padding: 0px 5px;
+      padding: 8px 5px;
     }
   }
 
-  @media (max-width: 600px) {
-    margin-top: 35px;
+  > h5 {
+    font-size: 1.6em;
+    padding: 4px 60px;
+    text-align: justify;
+
+    text-align: center;
+
+    color: var(--third);
+
+    @media (max-width: 1024px) {
+      padding: 8px 20px;
+    }
+
+    @media (max-width: 640px) {
+      padding: 8px 5px;
+    }
   }
 `;
 
@@ -148,10 +186,47 @@ export const WrapperText = styled.div`
   flex-direction: column;
 
   width: 100%;
-  padding: 40px 0px 80px;
+  padding: 80px 0px 80px;
 
-  @media (min-width: 1441px) {
-    margin: 20px 0px 5vh 0px;
+  > video {
+    max-width: 1250px;
+    width: 100%;
+
+    max-height: 455px;
+    padding: 0px 20px;
+
+    border: 0;
+    fill: white;
+  }
+
+  @media (max-width: 425px) {
+    margin: 10px 0px 4px 0px;
+  }
+
+  > h3 {
+    padding: 0 60px;
+    font-size: 3.4em;
+    color: var(--third);
+
+    text-align: center;
+
+    margin-bottom: 15px;
+
+    @media (max-width: 1024px) {
+      padding: 0 20px;
+    }
+
+    @media (max-width: 640px) {
+      padding: 0px 5px;
+    }
+
+    @media (max-width: 415px) {
+      font-size: 4.4em;
+    }
+
+    @media (max-width: 350px) {
+      font-size: 2.3em;
+    }
   }
 
   > p:first-child {
@@ -174,7 +249,7 @@ export const WrapperText = styled.div`
     text-align: center;
 
     @media (max-width: 1024px) {
-      padding: 0 20px;
+      padding: 60px 20px;
     }
   }
 
@@ -204,80 +279,12 @@ export const WrapperText = styled.div`
     padding: 20px 0px 25px 0px;
     margin-top: 0px;
   }
-`;
 
-export const WrapperReverse = styled.div`
-  display: flex;
-  flex-direction: row-reverse;
-
-  margin: 10px 0px 60px 0px;
-  gap: 15px 40px;
-
-  text-align: justify;
-
-  @media (max-width: 640px) {
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
-    margin: 10px 0px 15px 0px;
-  }
-`;
-
-export const WrapperNormal = styled.div`
-  display: flex;
-  gap: 15px 40px;
-
-  margin: 10px 0px 60px 0px;
-  text-align: justify;
-
-  @media (max-width: 640px) {
-    justify-content: center;
-    align-items: center;
-
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-
-    margin: 10px 0px 15px 0px;
-  }
-`;
-
-export const WrapperImg = styled.div`
-  max-width: 370px;
-
-  > img {
+  > iframe {
     width: 100%;
-  }
+    height: 100%;
 
-  @media (max-width: 640px) {
-    > img {
-      max-width: 380px;
-    }
-  }
-`;
-
-export const WrapperFeature = styled.div`
-  flex: 1;
-  max-width: 600px;
-
-  > p {
-    font-size: 1.1em;
-    padding: 0 20px;
-    text-align: justify;
-
-    color: #888388;
-
-    @media (max-width: 1024px) {
-      padding: 0 20px;
-    }
-
-    @media (max-width: 640px) {
-      padding: 0px;
-    }
-  }
-
-  @media (max-width: 640px) {
-    padding: 0px;
-    max-width: 380px;
+    max-width: 1240px;
+    min-height: 519px;
   }
 `;
