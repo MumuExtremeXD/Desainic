@@ -58,7 +58,13 @@ function Projects() {
         <WrapperText>
           <h3>Momentos que estamos com você</h3>
 
-          <video controls loop poster={QuallyGrama} src={VideoQually}>
+          <video
+            preload="none"
+            controls
+            loop
+            poster={QuallyGrama}
+            src={VideoQually}
+          >
             <p>Seu navegador não suporta esse formato de vídeo.</p>
           </video>
 
