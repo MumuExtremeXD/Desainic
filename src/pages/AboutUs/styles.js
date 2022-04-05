@@ -189,14 +189,18 @@ export const WrapperText = styled.div`
   padding: 80px 0px 80px;
 
   > video {
-    max-width: 1250px;
+    cursor: pointer;
+    max-width: 935px;
     width: 100%;
 
-    max-height: 455px;
-    padding: 0px 20px;
+    max-height: 475px;
 
     border: 0;
     fill: white;
+
+    @media (max-width: 780px) {
+      padding: 0px 20px;
+    }
   }
 
   @media (max-width: 425px) {
