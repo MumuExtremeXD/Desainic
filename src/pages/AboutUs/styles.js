@@ -225,7 +225,7 @@ export const WrapperText = styled.div`
     }
 
     @media (max-width: 415px) {
-      font-size: 4.4em;
+      font-size: 2.4em;
     }
 
     @media (max-width: 350px) {
