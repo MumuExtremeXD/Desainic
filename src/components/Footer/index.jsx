@@ -1,4 +1,6 @@
-/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable react/jsx-no-target-blank  */
+
+// XD
 import React from "react";
 
 import { Container, Wrapper, Row, Column, Copyright } from "./styles";
@@ -24,6 +26,7 @@ function Footer() {
                 <a
                   href={"https://br.pinterest.com/QuallyGrama/"}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i>
                     <BsPinterest />
@@ -37,6 +40,7 @@ function Footer() {
                 <a
                   href={"https://www.instagram.com/quallygrama/"}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i>
                     <AiFillInstagram />
@@ -49,6 +53,7 @@ function Footer() {
                 <a
                   href={"https://www.linkedin.com/company/qually-grama"}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i>
                     <FaLinkedinIn />
@@ -62,6 +67,7 @@ function Footer() {
                 <a
                   href={"https://www.facebook.com/QuallyGrama"}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i>
                     <FaFacebookF />
@@ -90,13 +96,21 @@ function Footer() {
             <h4>Nossos Parceiros</h4>
             <ul>
               <li>
-                <a href="https://sodsolutions.com/" target="_blank">
+                <a
+                  href="https://sodsolutions.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   SodSolutions
                 </a>
               </li>
 
               <li>
-                <a href="https://www.turfgrasssod.org/" target="_blank">
+                <a
+                  href="https://www.turfgrasssod.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   TPI
                 </a>
               </li>
@@ -116,6 +130,7 @@ function Footer() {
                 <a
                   href={`https://api.whatsapp.com/send?phone=5515996159898&text=Oi`}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <button type="button">WhatsApp</button>
                 </a>
