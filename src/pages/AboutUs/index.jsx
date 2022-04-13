@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 
 import { Link } from "react-router-dom";
@@ -10,8 +11,6 @@ import {
   ContainerHalfText2,
   WrapperText,
 } from "./styles";
-
-import VideoQually from "../../videos/Sobrenos.mp4";
 
 import QuallyGrama from "../../images/poster.webp";
 
@@ -58,9 +57,14 @@ function Projects() {
         <WrapperText>
           <h3>Momentos que estamos com você</h3>
 
-          <video controls loop poster={QuallyGrama} src={VideoQually}>
-            <p>Seu navegador não suporta esse formato de vídeo.</p>
-          </video>
+          <div>
+            <a
+              href={`https://www.youtube.com/watch?v=pjFsfDRHx3U`}
+              target="_blank"
+            >
+              <img src={QuallyGrama} alt="Vídeo Qually Grama" />
+            </a>
+          </div>
 
           <Link to={"../gramas"}>Torne o mundo mais verde</Link>
         </WrapperText>

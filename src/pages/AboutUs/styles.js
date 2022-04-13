@@ -31,7 +31,7 @@ export const Content = styled.div`
     align-items: center;
     text-align: justify;
 
-    margin-top: 75px;
+    margin-top: 80px;
     padding: 0px 10px;
   }
 `;
@@ -70,11 +70,12 @@ export const ContainerHalfText = styled.div`
     }
 
     @media (max-width: 640px) {
+      font-size: 4.2em;
       padding: 0px 5px;
     }
 
     @media (max-width: 415px) {
-      font-size: 4.4em;
+      font-size: 4em;
     }
 
     @media (max-width: 350px) {
@@ -85,9 +86,8 @@ export const ContainerHalfText = styled.div`
   > p {
     font-size: 1.33em;
     padding: 15px 60px;
-    text-align: justify;
 
-    text-align: center;
+    text-align: justify;
 
     color: #888388;
 
@@ -100,7 +100,7 @@ export const ContainerHalfText = styled.div`
     }
 
     @media (max-width: 640px) {
-      padding: 15px 12px;
+      padding: 10px 24px;
 
       text-align: justify;
     }
@@ -112,7 +112,7 @@ export const ContainerHalfText = styled.div`
 `;
 
 export const ContainerHalfText2 = styled.div`
-  margin: 40px 0px 160px;
+  margin: 40px 0px 100px;
 
   > h4 {
     padding: 0 60px;
@@ -123,11 +123,12 @@ export const ContainerHalfText2 = styled.div`
     margin-bottom: 15px;
 
     @media (max-width: 1024px) {
-      padding: 0 20px;
+      font-size: 2.6em;
+      padding: 0 40px;
     }
 
     @media (max-width: 640px) {
-      padding: 0px 5px;
+      padding: 0px 25px;
     }
 
     @media (max-width: 350px) {
@@ -146,11 +147,17 @@ export const ContainerHalfText2 = styled.div`
     color: #888388;
 
     @media (max-width: 1024px) {
+      font-size: 1.3em;
       padding: 8px 20px;
     }
 
     @media (max-width: 640px) {
-      padding: 8px 5px;
+      padding: 8px 25px;
+      font-size: 1.2em;
+    }
+
+    @media (max-width: 325px) {
+      padding: 8px 10px;
     }
   }
 
@@ -168,7 +175,11 @@ export const ContainerHalfText2 = styled.div`
     }
 
     @media (max-width: 640px) {
-      padding: 8px 5px;
+      padding: 8px 45px;
+    }
+
+    @media (max-width: 375px) {
+      padding: 8px 25px;
     }
   }
 `;
@@ -188,18 +199,17 @@ export const WrapperText = styled.div`
   width: 100%;
   padding: 80px 0px 80px;
 
-  > video {
+  > div > a > img {
     cursor: pointer;
     max-width: 935px;
     width: 100%;
 
     max-height: 475px;
-
-    border: 0;
-    fill: white;
+    border-radius: 10px;
 
     @media (max-width: 780px) {
-      padding: 0px 20px;
+      border-radius: 0px;
+      padding: 0 10px;
     }
   }
 
@@ -213,8 +223,6 @@ export const WrapperText = styled.div`
     color: var(--third);
 
     text-align: center;
-
-    margin-bottom: 15px;
 
     @media (max-width: 1024px) {
       padding: 0 20px;

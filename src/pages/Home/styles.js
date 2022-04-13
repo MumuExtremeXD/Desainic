@@ -291,6 +291,100 @@ export const WrapperProducts2 = styled.div`
   }
 `;
 
+export const WrapperProducts3 = styled.div`
+  max-width: 1440px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+  padding: 20px 0px 30px 0px;
+
+  color: #888388;
+
+  @media (min-width: 1441px) {
+    margin: 10px 0px 5vh 0px;
+  }
+
+  > div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    max-width: 1240px;
+    margin-bottom: 60px;
+
+    @media (max-width: 1024px) {
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+
+  > div > div > a > img {
+    cursor: pointer;
+    max-width: 620px;
+    padding: 0 40px;
+  }
+
+  > h3 {
+    text-align: center;
+    font-size: 3em;
+    padding: 40px 24px 0px;
+    margin-bottom: 80px;
+    font-weight: 560;
+
+    > span {
+      color: var(--fourth);
+    }
+  }
+
+  @media (max-width: 672px) {
+    margin-bottom: 55px;
+
+    > h3 {
+      font-size: 1.9em;
+      line-height: 40px;
+      margin-bottom: 30px;
+    }
+  }
+
+  > div > div > p {
+    font-size: 1.3em;
+    padding: 20px 150px 20px 0px;
+
+    @media (max-width: 1024px) {
+      max-width: 700px;
+      padding: 20px 20px 5px 20px;
+
+      text-align: center;
+    }
+  }
+
+  > div > div > p > label {
+    font-size: 1.3em;
+    padding: 0px 0px 20px 0px;
+
+    font-weight: bold;
+    color: var(--third);
+
+    @media (max-width: 1024px) {
+      padding: 0 20px 0 80px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    padding: 0px 0px 25px 0px;
+    margin-top: 0px;
+
+    > h2 {
+      text-align: center;
+      font-size: 2.2em;
+    }
+  }
+`;
+
 export const WrapperText = styled.div`
   background-color: #fafafa;
 

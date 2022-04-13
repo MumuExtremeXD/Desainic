@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { useEffect } from "react";
 
 import { Link } from "react-router-dom";
@@ -7,6 +8,7 @@ import {
   Wrapper,
   WrapperProducts1,
   WrapperProducts2,
+  WrapperProducts3,
   WrapperText,
   CardBox,
   Card,
@@ -30,6 +32,8 @@ import ImgDis from "../../images/discoveryPi.webp";
 import ImgPlantioP from "../../images/plantioP.webp";
 import ImgFertilizantesP from "../../images/fertilizantesP.webp";
 import ImgCuidadosP from "../../images/cuidadosP.webp";
+
+import ImgMapa from "../../images/MapaQually.webp";
 
 function Home() {
   useEffect(() => {
@@ -143,6 +147,38 @@ function Home() {
           </Card>
         </CardBox>
       </WrapperProducts2>
+
+      <WrapperProducts3>
+        <h3>Onde estamos?</h3>
+
+        <div>
+          <div>
+            <a
+              href={`https://www.google.com/maps/place/Qually+Grama/@-23.3525895,-47.9904152,15.75z/data=!4m5!3m4!1s0x0:0xb43399af9f351227!8m2!3d-23.3524984!4d-47.9858997?hl=pt-BR`}
+              target="_blank"
+            >
+              <img src={ImgMapa} alt="Localização Qually Grama" />
+            </a>
+          </div>
+
+          <div>
+            <p>
+              <label>Endereço Comercial:</label>
+            </p>
+
+            <p>Rua Onze de Agosto, 182 Centro, Tatuí/SP. CEP 18270-001</p>
+
+            <p>
+              <label>Endereço Produção:</label>
+            </p>
+
+            <p>
+              Estrada Municipal Renato Xavier Barros, S/N, Pederneiras,
+              Tatuí/SP. CEP 18270-010
+            </p>
+          </div>
+        </div>
+      </WrapperProducts3>
 
       <Footer />
     </Container>

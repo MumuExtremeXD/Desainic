@@ -162,6 +162,10 @@ export const Ul = styled.ul`
 
     &:hover {
       transform: scale(1.16);
+
+      @media (max-width: 868px) {
+        transform: scale(1.06);
+      }
     }
 
     > a {
