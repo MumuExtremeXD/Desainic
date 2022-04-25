@@ -146,7 +146,7 @@ function Home() {
         </CardBox>
       </WrapperServices>
 
-      {/* <WrapperChroma>
+      <WrapperChroma>
         <h2>Faça parte dessa Nação</h2>
 
         <div>
@@ -198,7 +198,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </WrapperChroma> */}
+      </WrapperChroma>
 
       <Footer />
     </Container>
