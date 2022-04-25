@@ -44,7 +44,7 @@ export default function App() {
 
   return (
     <BrowserRouter menu={open}>
-      <WarningContainer menu={open}>
+      {/* <WarningContainer menu={open}>
         <div>
           <p>
             Nós usamos cookies e outras tecnologias semelhantes para melhorar a
@@ -56,7 +56,7 @@ export default function App() {
 
           <button onClick={() => armazenar("accepted", termos)}>Aceitar</button>
         </div>
-      </WarningContainer>
+      </WarningContainer> */}
       <Routes />
 
       <GlobalStyles />

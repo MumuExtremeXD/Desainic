@@ -6,34 +6,21 @@ import { Link } from "react-router-dom";
 import {
   Container,
   Wrapper,
-  WrapperProducts1,
-  WrapperProducts2,
-  WrapperProducts3,
-  WrapperText,
+  WrapperClients,
+  ImgClients,
+  WrapperImg,
+  WrapperServices,
   CardBox,
-  Card,
-  CardImg,
-  CardImg3,
+  CardServices,
+  WrapperChroma,
 } from "./styles";
 
 import Header from "../../components/Headers/Header";
 import Footer from "../../components/Footer";
 
-import gramasVenM from "../../images/gramasVenM.webp";
-
-import ImgEsm from "../../images/esmeraldaPi.webp";
-import ImgBer from "../../images/bermudasPi.webp";
-import ImgSc from "../../images/scPi.webp";
-
-import ImgCo from "../../images/coreanaPi.webp";
-import ImgSt from "../../images/santoagostinhoPi.webp";
-import ImgDis from "../../images/discoveryPi.webp";
-
-import ImgPlantioP from "../../images/plantioP.webp";
-import ImgFertilizantesP from "../../images/fertilizantesP.webp";
-import ImgCuidadosP from "../../images/cuidadosP.webp";
-
-import ImgMapa from "../../images/MapaQually.webp";
+import teste from "../../images/teste.png";
+import testeCard from "../../images/testeCard.png";
+import testeClient from "../../images/Perfil.png";
 
 function Home() {
   useEffect(() => {
@@ -46,139 +33,172 @@ function Home() {
       <Header />
 
       <Wrapper>
-        <div>
-          <div className="GroupText">
-            <h1>Grama com qualidade e procedência que você merece!</h1>
-
-            <p>
-              Há mais de 20 anos, produzindo diversas espécies de grama com a
-              mesma qualidade o ano todo.
-            </p>
-
-            <Link to={"../gramas"}>
-              <button>Comprar</button>
-            </Link>
-          </div>
-
-          <img
-            className="ImgMobileVg"
-            src={gramasVenM}
-            alt="Variedades de grama - Qually Grama"
-          />
-        </div>
+        <img src={teste} alt="Variedades de grama - Qually Grama" />
       </Wrapper>
 
-      <WrapperProducts1>
-        <h1>
-          Nossas Variedades <br /> <span> de Grama!</span>
-        </h1>
+      <WrapperClients>
+        <p>Alguns dos nossos clientes</p>
+
+        <ImgClients>
+          <WrapperImg>
+            <img src={testeClient} alt="XD" />
+
+            <p>Via Uni</p>
+          </WrapperImg>
+
+          <WrapperImg>
+            <img src={testeClient} alt="XD" />
+
+            <p>Via Uni</p>
+          </WrapperImg>
+          <WrapperImg>
+            <img src={testeClient} alt="XD" />
+
+            <p>Via Uni</p>
+          </WrapperImg>
+          <WrapperImg>
+            <img src={testeClient} alt="XD" />
+
+            <p>Via Uni</p>
+          </WrapperImg>
+          <WrapperImg>
+            <img src={testeClient} alt="XD" />
+
+            <p>Via Uni</p>
+          </WrapperImg>
+          <WrapperImg>
+            <img src={testeClient} alt="XD" />
+
+            <p>Via Uni</p>
+          </WrapperImg>
+        </ImgClients>
+      </WrapperClients>
+
+      <WrapperServices>
+        <h2>Nossos Serviços</h2>
 
         <CardBox>
-          <Card>
-            <CardImg>
-              <Link to={"/grama-esmeralda/6"}>
-                <img src={ImgEsm} alt="esmeralda" loading="lazy" />
-              </Link>
+          <CardServices>
+            <Link to={"/grama-esmeralda/6"}>
+              <img src={testeCard} alt="esmeralda" loading="lazy" />
+            </Link>
 
-              <Link to={"/grama-bermudas/5"}>
-                <img src={ImgBer} alt="bermudas" loading="lazy" />
-              </Link>
+            <div>
+              <h3>Title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </CardServices>
 
-              <Link to={"/grama-sao-carlos/4"}>
-                <img src={ImgSc} alt="são carlos" loading="lazy" />
-              </Link>
+          <CardServices>
+            <Link to={"/grama-esmeralda/6"}>
+              <img src={testeCard} alt="esmeralda" loading="lazy" />
+            </Link>
 
-              <Link to={"/grama-santo-agostinho/3"}>
-                <img src={ImgSt} alt="santo agostinho" loading="lazy" />
-              </Link>
+            <div>
+              <h3>Title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </CardServices>
 
-              <Link to={"/grama-coreana/2"}>
-                <img src={ImgCo} alt="coreana" loading="lazy" />
-              </Link>
+          <CardServices>
+            <Link to={"/grama-esmeralda/6"}>
+              <img src={testeCard} alt="esmeralda" loading="lazy" />
+            </Link>
 
-              <Link to={"/grama-discovery/1"}>
-                <img src={ImgDis} alt="discovery" loading="lazy" />
-              </Link>
-            </CardImg>
-          </Card>
+            <div>
+              <h3>Title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </CardServices>
+
+          <CardServices>
+            <Link to={"/grama-esmeralda/6"}>
+              <img src={testeCard} alt="esmeralda" loading="lazy" />
+            </Link>
+
+            <div>
+              <h3>Title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </CardServices>
+
+          <CardServices>
+            <Link to={"/grama-esmeralda/6"}>
+              <img src={testeCard} alt="esmeralda" loading="lazy" />
+            </Link>
+
+            <div>
+              <h3>Title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </CardServices>
+
+          <CardServices>
+            <Link to={"/grama-esmeralda/6"}>
+              <img src={testeCard} alt="esmeralda" loading="lazy" />
+            </Link>
+
+            <div>
+              <h3>Title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </CardServices>
         </CardBox>
-      </WrapperProducts1>
+      </WrapperServices>
 
-      <WrapperText>
-        <p>Nossa História</p>
-
-        <p>
-          A Qually Grama é uma empresa que atua no mercado do agronegócio há
-          mais de 20 anos, produzindo várias espécies de grama com a qualidade
-          exigida pelo mercado. Para tanto, desenvolve ano a ano processos
-          produtivos que norteiam a missão da empresa, colocando à disposição
-          dos seus clientes produtos garantidos por nossa especialização no
-          setor.
-        </p>
-
-        <Link to={"/sobre-nos"}>Conheça</Link>
-      </WrapperText>
-
-      <WrapperProducts2>
-        <h2>
-          Dicas <span>Rápidas</span>
-        </h2>
-
-        <p>
-          Veja as dicas dos nossos especialistas, sobre os cuidados que o seu
-          seu gramado precisa.
-        </p>
-
-        <CardBox>
-          <Card>
-            <CardImg3>
-              <Link to={"/dicas/1"}>
-                <img src={ImgFertilizantesP} alt="ts" loading="lazy" />
-              </Link>
-
-              <Link to={"/dicas/2"}>
-                <img src={ImgCuidadosP} alt="ts" loading="lazy" />
-              </Link>
-
-              <Link to={"/dicas/3"}>
-                <img src={ImgPlantioP} alt="ts" loading="lazy" />
-              </Link>
-            </CardImg3>
-          </Card>
-        </CardBox>
-      </WrapperProducts2>
-
-      <WrapperProducts3>
-        <h3>Onde estamos?</h3>
+      {/* <WrapperChroma>
+        <h2>Faça parte dessa Nação</h2>
 
         <div>
           <div>
-            <a
-              href={`https://www.google.com/maps/place/Qually+Grama/@-23.3525895,-47.9904152,15.75z/data=!4m5!3m4!1s0x0:0xb43399af9f351227!8m2!3d-23.3524984!4d-47.9858997?hl=pt-BR`}
-              target="_blank"
-            >
-              <img src={ImgMapa} alt="Localização Qually Grama" />
-            </a>
+            <div>
+              <h4>Nada é mais importante que você.</h4>
+              <p>
+                Seu projeto não vai ficar em segundo plano porque alguém “mais
+                importante” apareceu. Você nunca será atribuído a um “time B”;
+                Prezamos pela qualidade do nosso serviço como principal
+                diferencial dentro do mercado!
+              </p>
+            </div>
           </div>
 
           <div>
-            <p>
-              <label>Endereço Comercial:</label>
-            </p>
+            <div>
+              <h4>Nada é mais importante que você.</h4>
+              <p>
+                Seu projeto não vai ficar em segundo plano porque alguém “mais
+                importante” apareceu. Você nunca será atribuído a um “time B”;
+                Prezamos pela qualidade do nosso serviço como principal
+                diferencial dentro do mercado!
+              </p>
+            </div>
+          </div>
 
-            <p>Rua Onze de Agosto, 182 Centro, Tatuí/SP. CEP 18270-001</p>
+          <div>
+            <div>
+              <h4>Nada é mais importante que você.</h4>
+              <p>
+                Seu projeto não vai ficar em segundo plano porque alguém “mais
+                importante” apareceu. Você nunca será atribuído a um “time B”;
+                Prezamos pela qualidade do nosso serviço como principal
+                diferencial dentro do mercado!
+              </p>
+            </div>
+          </div>
 
-            <p>
-              <label>Endereço Produção:</label>
-            </p>
-
-            <p>
-              Estrada Municipal Renato Xavier Barros, S/N, Pederneiras,
-              Tatuí/SP. CEP 18270-010
-            </p>
+          <div>
+            <div>
+              <h4>Nada é mais importante que você.</h4>
+              <p>
+                Seu projeto não vai ficar em segundo plano porque alguém “mais
+                importante” apareceu. Você nunca será atribuído a um “time B”;
+                Prezamos pela qualidade do nosso serviço como principal
+                diferencial dentro do mercado!
+              </p>
+            </div>
           </div>
         </div>
-      </WrapperProducts3>
+      </WrapperChroma> */}
 
       <Footer />
     </Container>

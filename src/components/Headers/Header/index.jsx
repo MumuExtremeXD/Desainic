@@ -14,8 +14,6 @@ import {
 import { CgMenuRight } from "react-icons/cg";
 import { IoMdCloseCircle } from "react-icons/io";
 
-import logo from "../../../images/logoHeader.webp";
-
 const scrollThreshold = 1;
 
 function Header() {
@@ -40,7 +38,7 @@ function Header() {
       <Content menu={open}>
         <div className="logo">
           <Link to={"../"}>
-            <img src={logo} alt="Qually Grama" />{" "}
+            <img src={"logo"} alt="Chroma" />
           </Link>
         </div>
 
@@ -53,10 +51,6 @@ function Header() {
 
           <li>
             <Link to={"../"}>Início</Link>
-          </li>
-
-          <li>
-            <Link to={"../gramas"}>Gramas</Link>
           </li>
 
           <li>
@@ -83,9 +77,7 @@ function Header() {
             <li>
               <Link to={"../"}>Início</Link>
             </li>
-            <li>
-              <Link to={"../gramas"}>Gramas</Link>
-            </li>
+
             <li>
               <Link to={"../dicas"}>Dicas</Link>
             </li>

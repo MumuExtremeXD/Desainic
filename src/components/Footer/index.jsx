@@ -24,7 +24,7 @@ function Footer() {
             <ul>
               <li>
                 <a
-                  href={"https://br.pinterest.com/QuallyGrama/"}
+                  href={"https://br.pinterest.com/"}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -38,7 +38,7 @@ function Footer() {
 
               <li>
                 <a
-                  href={"https://www.instagram.com/quallygrama/"}
+                  href={"https://www.instagram.com/"}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -51,7 +51,7 @@ function Footer() {
 
               <li>
                 <a
-                  href={"https://www.linkedin.com/company/qually-grama"}
+                  href={"https://www.linkedin.com/company/"}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -65,7 +65,7 @@ function Footer() {
 
               <li>
                 <a
-                  href={"https://www.facebook.com/QuallyGrama"}
+                  href={"https://www.facebook.com/"}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -96,22 +96,14 @@ function Footer() {
             <h4>Nossos Parceiros</h4>
             <ul>
               <li>
-                <a
-                  href="https://sodsolutions.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  SodSolutions
+                <a href="XD" target="_blank" rel="noreferrer">
+                  XD1
                 </a>
               </li>
 
               <li>
-                <a
-                  href="https://www.turfgrasssod.org/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  TPI
+                <a href="XD" target="_blank" rel="noreferrer">
+                  XD2
                 </a>
               </li>
             </ul>
@@ -139,7 +131,7 @@ function Footer() {
               <li>
                 <p>
                   Você pode nos ligar nesse número
-                  <a href="tel:+5501532059300"> (15) 3205-9300</a>
+                  <a href="tel:+5501599691-8493"> (15) 99691-8493</a>
                 </p>
               </li>
             </ul>
@@ -150,7 +142,7 @@ function Footer() {
       <Copyright>
         <h4>
           ©Todos os direitos reservados {year} <br />
-          Qually Grama Comercio LTDA
+          Chroma Nation
         </h4>
       </Copyright>
     </Container>
