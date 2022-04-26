@@ -12,7 +12,6 @@ import {
   WrapperServices,
   CardBox,
   CardServices,
-  WrapperChroma,
 } from "./styles";
 
 import Header from "../../components/Headers/Header";
@@ -145,60 +144,6 @@ function Home() {
           </CardServices>
         </CardBox>
       </WrapperServices>
-
-      <WrapperChroma>
-        <h2>Faça parte dessa Nação</h2>
-
-        <div>
-          <div>
-            <div>
-              <h4>Nada é mais importante que você.</h4>
-              <p>
-                Seu projeto não vai ficar em segundo plano porque alguém “mais
-                importante” apareceu. Você nunca será atribuído a um “time B”;
-                Prezamos pela qualidade do nosso serviço como principal
-                diferencial dentro do mercado!
-              </p>
-            </div>
-          </div>
-
-          <div>
-            <div>
-              <h4>Nada é mais importante que você.</h4>
-              <p>
-                Seu projeto não vai ficar em segundo plano porque alguém “mais
-                importante” apareceu. Você nunca será atribuído a um “time B”;
-                Prezamos pela qualidade do nosso serviço como principal
-                diferencial dentro do mercado!
-              </p>
-            </div>
-          </div>
-
-          <div>
-            <div>
-              <h4>Nada é mais importante que você.</h4>
-              <p>
-                Seu projeto não vai ficar em segundo plano porque alguém “mais
-                importante” apareceu. Você nunca será atribuído a um “time B”;
-                Prezamos pela qualidade do nosso serviço como principal
-                diferencial dentro do mercado!
-              </p>
-            </div>
-          </div>
-
-          <div>
-            <div>
-              <h4>Nada é mais importante que você.</h4>
-              <p>
-                Seu projeto não vai ficar em segundo plano porque alguém “mais
-                importante” apareceu. Você nunca será atribuído a um “time B”;
-                Prezamos pela qualidade do nosso serviço como principal
-                diferencial dentro do mercado!
-              </p>
-            </div>
-          </div>
-        </div>
-      </WrapperChroma>
 
       <Footer />
     </Container>
