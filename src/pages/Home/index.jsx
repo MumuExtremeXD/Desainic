@@ -14,7 +14,7 @@ import {
   CardServices,
 } from "./styles";
 
-import Header from "../../components/Headers/Header";
+import Header from "../../components/Headers/HeaderMobile";
 import Footer from "../../components/Footer";
 
 import teste from "../../images/teste.png";
@@ -31,12 +31,8 @@ function Home() {
     <Container>
       <Header />
 
-      <Wrapper>
-        <img src={teste} alt="Variedades de grama - Qually Grama" />
-      </Wrapper>
-
       <WrapperClients>
-        <p>Alguns dos nossos clientes</p>
+        <p>Principais Categorias</p>
 
         <ImgClients>
           <WrapperImg>
@@ -73,6 +69,10 @@ function Home() {
         </ImgClients>
       </WrapperClients>
 
+      <Wrapper>
+        <img src={teste} alt="Variedades de grama - Qually Grama" />
+      </Wrapper>
+
       <WrapperServices>
         <h2>Nossos Serviços</h2>
 
@@ -84,7 +84,7 @@ function Home() {
 
             <div>
               <h3>Title</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>R$10,00</p>
             </div>
           </CardServices>
 
@@ -95,7 +95,7 @@ function Home() {
 
             <div>
               <h3>Title</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>R$10,00</p>
             </div>
           </CardServices>
 
@@ -106,7 +106,7 @@ function Home() {
 
             <div>
               <h3>Title</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>R$10,00</p>
             </div>
           </CardServices>
 
@@ -117,7 +117,7 @@ function Home() {
 
             <div>
               <h3>Title</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>R$10,00</p>
             </div>
           </CardServices>
 
@@ -128,7 +128,7 @@ function Home() {
 
             <div>
               <h3>Title</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>R$10,00</p>
             </div>
           </CardServices>
 
@@ -139,7 +139,7 @@ function Home() {
 
             <div>
               <h3>Title</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>R$10,00</p>
             </div>
           </CardServices>
         </CardBox>

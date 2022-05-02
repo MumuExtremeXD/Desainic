@@ -19,11 +19,7 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
-  padding-top: 95px;
-
-  @media (max-width: 768px) {
-    padding-top: 80px;
-  }
+  padding: 15px 0px;
 
   > img {
     width: 100%;
@@ -35,10 +31,6 @@ export const Wrapper = styled.div`
       max-width: 900px;
     }
   }
-
-  @media (max-width: 375px) {
-    padding-top: 100px;
-  }
 `;
 
 export const WrapperClients = styled.div`
@@ -49,10 +41,12 @@ export const WrapperClients = styled.div`
   width: 100%;
   flex-direction: column;
 
-  padding-top: 35px;
+  padding-top: 60px;
 
-  @media (max-width: 525px) {
-    padding-top: 40px;
+  @media (max-width: 768px) {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 30px;
   }
 
   > p {
@@ -77,7 +71,7 @@ export const ImgClients = styled.div`
 
   @media (max-width: 768px) {
     padding: 0 15px;
-    gap: 12px;
+    gap: 34px;
 
     > a > img {
       border-radius: 12px;
@@ -171,7 +165,7 @@ export const CardBox = styled.div`
   align-items: center;
 
   border-radius: 50% 50% 0 0;
-  padding: 15px 15px;
+  padding: 5px 15px;
 
   grid-gap: 30px 20px;
 
@@ -188,14 +182,14 @@ export const CardBox = styled.div`
     align-items: flex-start;
   }
 
-  @media (max-width: 755px) {
-    display: flex;
+  @media (max-width: 750px) {
+    display: grid;
+    grid-template-columns: repeat(minmax(150px, 1fr));
 
-    flex-wrap: wrap;
-
-    justify-content: center;
-    align-items: center;
-    gap: 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 30px;
   }
 `;
 
