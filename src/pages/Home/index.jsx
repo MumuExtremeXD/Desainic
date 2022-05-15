@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 import {
   Container,
-  Wrapper,
   WrapperClients,
   ImgClients,
   WrapperImg,
@@ -14,10 +13,11 @@ import {
   CardServices,
 } from "./styles";
 
-import Header from "../../components/Headers/HeaderMobile";
+import Header from "../../components/Headers/Header";
+import HeaderMobile from "../../components/Headers/HeaderMobile";
+
 import Footer from "../../components/Footer";
 
-import teste from "../../images/teste.png";
 import testeCard from "../../images/testeCard.png";
 import testeClient from "../../images/Perfil.png";
 
@@ -30,6 +30,7 @@ function Home() {
   return (
     <Container>
       <Header />
+      <HeaderMobile />
 
       <WrapperClients>
         <p>Principais Categorias</p>
@@ -69,10 +70,6 @@ function Home() {
         </ImgClients>
       </WrapperClients>
 
-      <Wrapper>
-        <img src={teste} alt="Variedades de grama - Qually Grama" />
-      </Wrapper>
-
       <WrapperServices>
         <h2>Nossos Serviços</h2>
 
@@ -83,7 +80,7 @@ function Home() {
             </Link>
 
             <div>
-              <h3>Title</h3>
+              <h3>Apresentações Profissionais</h3>
               <p>R$10,00</p>
             </div>
           </CardServices>
@@ -94,7 +91,7 @@ function Home() {
             </Link>
 
             <div>
-              <h3>Title</h3>
+              <h3>Desenvolvimento de sites</h3>
               <p>R$10,00</p>
             </div>
           </CardServices>
@@ -105,7 +102,7 @@ function Home() {
             </Link>
 
             <div>
-              <h3>Title</h3>
+              <h3>Canecas personalizadas</h3>
               <p>R$10,00</p>
             </div>
           </CardServices>
@@ -116,7 +113,7 @@ function Home() {
             </Link>
 
             <div>
-              <h3>Title</h3>
+              <h3>Configuração de Redes Sociais</h3>
               <p>R$10,00</p>
             </div>
           </CardServices>

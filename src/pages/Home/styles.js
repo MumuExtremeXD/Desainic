@@ -15,24 +15,6 @@ export const Container = styled.div`
   position: relative;
 `;
 
-export const Wrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 15px 0px;
-
-  > img {
-    width: 100%;
-    max-width: 1200px;
-
-    padding: 0 13px;
-
-    @media (min-width: 800px) {
-      max-width: 900px;
-    }
-  }
-`;
-
 export const WrapperClients = styled.div`
   display: flex;
   justify-content: center;
@@ -41,7 +23,7 @@ export const WrapperClients = styled.div`
   width: 100%;
   flex-direction: column;
 
-  padding-top: 60px;
+  padding-top: 90px;
 
   @media (max-width: 768px) {
     justify-content: flex-start;
@@ -55,7 +37,7 @@ export const WrapperClients = styled.div`
     font-weight: 700;
 
     @media (max-width: 768px) {
-      padding: 0px 15px;
+      padding-left: 15px;
     }
   }
 `;
@@ -124,7 +106,6 @@ export const WrapperImg = styled.div`
 
 export const WrapperServices = styled.div`
   max-width: 1240px;
-  margin-top: 20px;
   display: flex;
 
   justify-content: center;
@@ -137,8 +118,8 @@ export const WrapperServices = styled.div`
   padding: 30px 0px 45px 0px;
 
   @media (max-width: 750px) {
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     padding: 0px 0px 0px 0px;
   }
 
@@ -149,7 +130,6 @@ export const WrapperServices = styled.div`
     text-align: center;
 
     @media (max-width: 768px) {
-      padding: 0px 15px;
     }
   }
 `;
@@ -165,66 +145,75 @@ export const CardBox = styled.div`
   align-items: center;
 
   border-radius: 50% 50% 0 0;
-  padding: 5px 15px;
+  padding: 5px 15px 35px;
 
   grid-gap: 30px 20px;
 
   @media (max-width: 1024px) {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 350px));
-
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 290px));
     grid-gap: 20px 20px;
   }
 
-  @media (max-width: 768px) {
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-
   @media (max-width: 750px) {
-    display: grid;
-    grid-template-columns: repeat(minmax(150px, 1fr));
-
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 10px;
+    grid-column-gap: 15px;
     grid-row-gap: 30px;
   }
 `;
 
 export const CardServices = styled.div`
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 
   flex-direction: column;
 
-  > div {
-    padding: 10px 0px;
+  @media (max-width: 768px) {
+    max-width: 240px;
+  }
 
+  @media (max-width: 400px) {
+    max-width: 140px;
+  }
+
+  > div {
+    text-align: center;
     @media (max-width: 550px) {
-      padding: 0px 15px;
     }
   }
 
   > div > h3 {
-    font-size: 2.2em;
+    font-size: 1.2em;
 
-    font-weight: 560;
-    line-height: 55px;
+    font-weight: 360;
+    margin: 0px 0px 10px;
+    line-height: auto;
 
-    margin-bottom: 5px;
+    max-width: 15ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    @media (max-width: 400px) {
+      max-width: 15ch;
+      overflow: initial;
+      text-overflow: initial;
+      white-space: normal;
+      font-size: 1em;
+    }
   }
 
   > div > p {
-    font-size: 1.1em;
-    text-align: left;
+    font-size: 2.2em;
+    font-weight: 560;
+    margin-bottom: 1px;
   }
 
   > a {
     img {
+      border-radius: 12px;
       max-width: 640px;
+
       width: 100%;
     }
   }
@@ -242,14 +231,12 @@ export const WrapperChroma = styled.div`
   flex-direction: column;
 
   > h2 {
-    padding: 0px 15px;
     color: #000;
 
     font-size: 2.2rem;
     font-weight: 700;
 
     @media (max-width: 768px) {
-      padding: 0px 20px;
     }
   }
 
@@ -264,7 +251,6 @@ export const WrapperChroma = styled.div`
     gap: 20px;
 
     margin: 35px 0px 65px;
-    padding: 0 20px;
   }
 
   @media (max-width: 525px) {

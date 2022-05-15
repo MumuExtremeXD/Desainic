@@ -20,7 +20,10 @@ export const Nav = styled.div`
     color: #666366;
   }
 
+  display: none;
+
   @media (max-width: 768px) {
+    display: initial;
     padding: 3px 0px;
   }
 

@@ -2,14 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import { Link } from "react-router-dom";
 
-import {
-  Nav,
-  Content,
-  Ul,
-  DivMenuDesktop,
-  UlDesktop,
-  EffectOverlay,
-} from "./styles";
+import { Nav, Content, Ul, EffectOverlay } from "./styles";
 
 import { CgMenuRight } from "react-icons/cg";
 import { IoMdCloseCircle } from "react-icons/io";
@@ -71,32 +64,6 @@ function Header() {
             </a>
           </li>
         </Ul>
-
-        <DivMenuDesktop>
-          <UlDesktop className={classes}>
-            <li>
-              <Link to={"../"}>Início</Link>
-            </li>
-
-            <li>
-              <Link to={"../dicas"}>Dicas</Link>
-            </li>
-
-            <li>
-              <Link to={"../sobre-nos"}>Sobre nós</Link>
-            </li>
-
-            <li>
-              <a
-                href={`https://api.whatsapp.com/send?phone=5515996159898&text=Olá!`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button type="button">Fale Conosco</button>
-              </a>
-            </li>
-          </UlDesktop>
-        </DivMenuDesktop>
 
         <div className="icon" onClick={() => setOpen(!open)}>
           <i>

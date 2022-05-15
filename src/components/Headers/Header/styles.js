@@ -21,6 +21,7 @@ export const Nav = styled.div`
   }
 
   @media (max-width: 768px) {
+    display: none;
     padding: 3px 0px;
   }
 
@@ -107,22 +108,8 @@ export const Content = styled.div`
     }
   }
 
-  > .icon {
-    @media (min-width: 769px) {
-      display: none;
-    }
-  }
-
   @media (max-width: 868px) {
     max-width: 100%;
-  }
-`;
-
-export const DivMenuDesktop = styled.div`
-  display: none;
-
-  @media (min-width: 770px) {
-    display: inline-flex;
   }
 `;
 
@@ -147,9 +134,9 @@ export const Ul = styled.ul`
     padding: 70px 45px 80px 0px;
   }
 
-  > .icon {
+  /* > .icon {
     display: none;
-  }
+  } */
 
   > div > i {
     color: var(--black);
