@@ -142,7 +142,7 @@ function Footer() {
       <Copyright>
         <h4>
           ©Todos os direitos reservados {year} <br />
-          Chroma Nation
+          Sir Pigue
         </h4>
       </Copyright>
     </Container>

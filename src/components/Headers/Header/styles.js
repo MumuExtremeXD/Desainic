@@ -25,7 +25,7 @@ export const Nav = styled.div`
     padding: 3px 0px;
   }
 
-  @media (min-width: 320px) {
+  @media (min-width: 768px) {
     &.scrollMenu {
       background-color: white;
       box-shadow: 0px 1px 10px -5px rgba(0, 0, 0, 0.33);
@@ -134,10 +134,6 @@ export const Ul = styled.ul`
     padding: 70px 45px 80px 0px;
   }
 
-  /* > .icon {
-    display: none;
-  } */
-
   > div > i {
     color: var(--black);
     font-size: 40px;
@@ -153,7 +149,7 @@ export const Ul = styled.ul`
     transition: all 0.4s ease;
 
     &:hover {
-      transform: scale(1.16);
+      transform: scale(1.04);
 
       @media (max-width: 868px) {
         transform: scale(1.06);
@@ -281,7 +277,7 @@ export const UlDesktop = styled.ul`
     transition: all 0.4s ease;
 
     &:hover {
-      transform: scale(1.16);
+      transform: scale(1.045);
     }
 
     @media (max-width: 868px) {

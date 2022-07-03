@@ -30,7 +30,7 @@ function Header() {
 
       <Content menu={open}>
         <div className="logo">
-          <Link to={"../gramas"}>
+          <Link to={"../#"}>
             <i>
               <IoIosArrowDropleftCircle />
             </i>
@@ -50,7 +50,7 @@ function Header() {
           </li>
 
           <li>
-            <Link to={"../gramas"}>Gramas</Link>
+            <Link to={"../#"}>Gramas</Link>
           </li>
 
           <li>

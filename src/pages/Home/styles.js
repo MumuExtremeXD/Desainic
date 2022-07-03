@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import testeP from "../../images/FundoP.png";
+
 export const Container = styled.div`
   width: 100% !important;
   height: 100%;
@@ -15,6 +17,22 @@ export const Container = styled.div`
   position: relative;
 `;
 
+export const ContainerPrincipal = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  min-height: 500px;
+
+  overflow: hidden;
+
+  background-image: url(${testeP});
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+`;
+
 export const WrapperClients = styled.div`
   display: flex;
   justify-content: center;
@@ -23,12 +41,11 @@ export const WrapperClients = styled.div`
   width: 100%;
   flex-direction: column;
 
-  padding-top: 90px;
+  padding-top: 30px;
 
   @media (max-width: 768px) {
     justify-content: flex-start;
     align-items: flex-start;
-    padding-top: 30px;
   }
 
   > p {
@@ -97,6 +114,7 @@ export const WrapperImg = styled.div`
   align-items: center;
 
   > img {
+    cursor: pointer;
     border-radius: 50%;
     max-width: 120px;
     min-width: 100px;
@@ -154,6 +172,12 @@ export const CardBox = styled.div`
     grid-gap: 20px 20px;
   }
 
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 30px;
+  }
+
   @media (max-width: 750px) {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 15px;
@@ -166,20 +190,17 @@ export const CardServices = styled.div`
   justify-content: center;
   align-items: center;
 
+  width: 100%;
+
   flex-direction: column;
 
   @media (max-width: 768px) {
-    max-width: 240px;
-  }
-
-  @media (max-width: 400px) {
-    max-width: 140px;
+    max-width: minmax(240px, 280px);
+    min-width: minmax(120px, 160px);
   }
 
   > div {
     text-align: center;
-    @media (max-width: 550px) {
-    }
   }
 
   > div > h3 {

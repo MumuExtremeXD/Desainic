@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 import {
   Container,
+  ContainerPrincipal,
   WrapperClients,
   ImgClients,
   WrapperImg,
@@ -32,8 +33,12 @@ function Home() {
       <Header />
       <HeaderMobile />
 
+      <ContainerPrincipal>
+        <h2>Teste</h2>
+      </ContainerPrincipal>
+
       <WrapperClients>
-        <p>Principais Categorias</p>
+        <p>Mais Comprados</p>
 
         <ImgClients>
           <WrapperImg>
@@ -47,11 +52,13 @@ function Home() {
 
             <p>Via Uni</p>
           </WrapperImg>
+
           <WrapperImg>
             <img src={testeClient} alt="XD" />
 
             <p>Via Uni</p>
           </WrapperImg>
+
           <WrapperImg>
             <img src={testeClient} alt="XD" />
 
@@ -75,7 +82,7 @@ function Home() {
 
         <CardBox>
           <CardServices>
-            <Link to={"/grama-esmeralda/6"}>
+            <Link to={"#"}>
               <img src={testeCard} alt="esmeralda" loading="lazy" />
             </Link>
 
@@ -86,7 +93,7 @@ function Home() {
           </CardServices>
 
           <CardServices>
-            <Link to={"/grama-esmeralda/6"}>
+            <Link to={"#"}>
               <img src={testeCard} alt="esmeralda" loading="lazy" />
             </Link>
 
@@ -97,7 +104,7 @@ function Home() {
           </CardServices>
 
           <CardServices>
-            <Link to={"/grama-esmeralda/6"}>
+            <Link to={"#"}>
               <img src={testeCard} alt="esmeralda" loading="lazy" />
             </Link>
 
@@ -108,7 +115,7 @@ function Home() {
           </CardServices>
 
           <CardServices>
-            <Link to={"/grama-esmeralda/6"}>
+            <Link to={"#"}>
               <img src={testeCard} alt="esmeralda" loading="lazy" />
             </Link>
 
@@ -119,7 +126,7 @@ function Home() {
           </CardServices>
 
           <CardServices>
-            <Link to={"/grama-esmeralda/6"}>
+            <Link to={"#"}>
               <img src={testeCard} alt="esmeralda" loading="lazy" />
             </Link>
 
@@ -130,7 +137,7 @@ function Home() {
           </CardServices>
 
           <CardServices>
-            <Link to={"/grama-esmeralda/6"}>
+            <Link to={"#"}>
               <img src={testeCard} alt="esmeralda" loading="lazy" />
             </Link>
 

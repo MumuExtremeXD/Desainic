@@ -1,48 +1,48 @@
 /* eslint-disable import/no-anonymous-default-export */
 
-import ImgEsm from "../images/esmeraldaPi.webp";
-import ImgBer from "../images/bermudasPi.webp";
-import ImgSc from "../images/scPi.webp";
+import ImgEsm from "../images/teste.webp";
+import ImgBer from "../images/teste.webp";
+import ImgSc from "../images/teste.webp";
 
-import ImgCo from "../images/coreanaPi.webp";
-import ImgSt from "../images/santoagostinhoPi.webp";
-import ImgDis from "../images/discoveryPi.webp";
+import ImgCo from "../images/teste.webp";
+import ImgSt from "../images/teste.webp";
+import ImgDis from "../images/teste.webp";
 
-import ImgEsmeralda1 from "../images/esmeralda.webp";
-import ImgEsmeralda2 from "../images/esmeralda2.webp";
-import ImgEsmeralda3 from "../images/esmeralda6.webp";
-import ImgEsmeralda4 from "../images/esmeralda4.webp";
-import ImgEsmeralda5 from "../images/esmeralda5.webp";
+import ImgEsmeralda1 from "../images/teste.webp";
+import ImgEsmeralda2 from "../images/teste.webp";
+import ImgEsmeralda3 from "../images/teste.webp";
+import ImgEsmeralda4 from "../images/teste.webp";
+import ImgEsmeralda5 from "../images/teste.webp";
 
-import ImgBermuda1 from "../images/bermudas.webp";
-import ImgBermuda2 from "../images/bermudas4.webp";
-import ImgBermuda3 from "../images/bermudas2.webp";
-import ImgBermuda4 from "../images/bermudas5.webp";
-import ImgBermuda5 from "../images/bermudas3.webp";
+import ImgBermuda1 from "../images/teste.webp";
+import ImgBermuda2 from "../images/teste.webp";
+import ImgBermuda3 from "../images/teste.webp";
+import ImgBermuda4 from "../images/teste.webp";
+import ImgBermuda5 from "../images/teste.webp";
 
-import ImgSC1 from "../images/saocarlos.webp";
-import ImgSC2 from "../images/saocarlos4.webp";
-import ImgSC3 from "../images/saocarlos5.webp";
-import ImgSC4 from "../images/saocarlos3.webp";
-import ImgSC5 from "../images/saocarlos2.webp";
+import ImgSC1 from "../images/teste.webp";
+import ImgSC2 from "../images/teste.webp";
+import ImgSC3 from "../images/teste.webp";
+import ImgSC4 from "../images/teste.webp";
+import ImgSC5 from "../images/teste.webp";
 
-import ImgSA1 from "../images/stagostinho.webp";
-import ImgSA2 from "../images/santoagostinho5.webp";
-import ImgSA3 from "../images/santoagostinho4.webp";
-import ImgSA4 from "../images/santoagostinho3.webp";
-import ImgSA5 from "../images/santoagostinho2.webp";
+import ImgSA1 from "../images/teste.webp";
+import ImgSA2 from "../images/teste.webp";
+import ImgSA3 from "../images/teste.webp";
+import ImgSA4 from "../images/teste.webp";
+import ImgSA5 from "../images/teste.webp";
 
-import ImgCoreana1 from "../images/coreana.webp";
-import ImgCoreana2 from "../images/coreana4.webp";
-import ImgCoreana3 from "../images/coreana2.webp";
-import ImgCoreana4 from "../images/coreana3.webp";
-import ImgCoreana5 from "../images/coreana5.webp";
+import ImgCoreana1 from "../images/teste.webp";
+import ImgCoreana2 from "../images/teste.webp";
+import ImgCoreana3 from "../images/teste.webp";
+import ImgCoreana4 from "../images/teste.webp";
+import ImgCoreana5 from "../images/teste.webp";
 
-import ImgDiscovery1 from "../images/discovery.webp";
-import ImgDiscovery2 from "../images/discovery4.webp";
-import ImgDiscovery3 from "../images/discovery3.webp";
-import ImgDiscovery4 from "../images/discovery2.webp";
-import ImgDiscovery5 from "../images/discovery5.webp";
+import ImgDiscovery1 from "../images/teste.webp";
+import ImgDiscovery2 from "../images/teste.webp";
+import ImgDiscovery3 from "../images/teste.webp";
+import ImgDiscovery4 from "../images/teste.webp";
+import ImgDiscovery5 from "../images/teste.webp";
 
 export default [
   {

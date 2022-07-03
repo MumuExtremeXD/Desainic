@@ -31,7 +31,7 @@ function Header() {
       <Content menu={open}>
         <div className="logo">
           <Link to={"../"}>
-            <img src={"logo"} alt="Chroma" />
+            <img src={"logo"} alt="Sir Pigue" />
           </Link>
         </div>
 

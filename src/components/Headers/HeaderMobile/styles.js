@@ -26,23 +26,6 @@ export const Nav = styled.div`
     display: initial;
     padding: 3px 0px;
   }
-
-  @media (min-width: 320px) {
-    &.scrollMenu {
-      background-color: white;
-      box-shadow: 0px 1px 10px -5px rgba(0, 0, 0, 0.33);
-
-      > div > div > ul > li > a,
-      > a:active,
-      > a:visited {
-        color: #666366;
-      }
-
-      > div > div > i {
-        color: #666366;
-      }
-    }
-  }
 `;
 
 export const Ul = styled.ul`
