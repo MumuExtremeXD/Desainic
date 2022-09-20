@@ -1,28 +1,52 @@
 /* eslint-disable react/jsx-no-target-blank */
-import React, { useEffect } from "react";
-
+import React, { useMemo, useState, useEffect, Suspense } from "react";
 import { Link } from "react-router-dom";
 
 import {
   Container,
   ContainerPrincipal,
-  WrapperClients,
-  ImgClients,
-  WrapperImg,
   WrapperServices,
+  Wrapper,
+  WrapperPlan,
+  ContantImg,
   CardBox,
-  CardServices,
+  SearchSection,
+  InputForm,
+  NotFoundContainer,
 } from "./styles";
 
 import Header from "../../components/Headers/Header";
-import HeaderMobile from "../../components/Headers/HeaderMobile";
+import { BiSearchAlt } from "react-icons/bi";
 
+import data from "../../data/serviceData";
+
+import Imgfundo from "../../images/fundoXD.jpg";
 import Footer from "../../components/Footer";
 
-import testeCard from "../../images/testeCard.png";
-import testeClient from "../../images/Perfil.png";
+const Card = React.lazy(() => import("../../components/CardServices"));
+
+const FiltrarItens = (data, busca) => {
+  const lowerBusca = busca.toLowerCase();
+
+  try {
+    if (
+      data.filter((service) =>
+        service?.nameService.toLowerCase().includes(lowerBusca)
+      ).length > 0
+    ) {
+      return data.filter((service) =>
+        service?.nameService.toLowerCase().includes(lowerBusca)
+      );
+    }
+  } catch (error) {
+    return console.error(error);
+  }
+};
 
 function Home() {
+  const [busca, setBusca] = useState("");
+  const ServiceFiltrados = useMemo(() => FiltrarItens(data, busca), [busca]);
+
   useEffect(() => {
     return () => {
       window.scrollTo(0, 0);
@@ -31,123 +55,73 @@ function Home() {
   return (
     <Container>
       <Header />
-      <HeaderMobile />
 
       <ContainerPrincipal>
-        <h2>Teste</h2>
+        <h1>Assuma o controle de suas mídias sociais</h1>
+
+        <p>
+          Mantenha-se organizado, economize tempo e gerencie facilmente suas
+          mídias sociais com a caixa de entrada, publicação, relatórios,
+          monitoramento e ferramentas de colaboração em equipe da Agorapulse.
+        </p>
+
+        <div>
+          <Link to="/Servicos">Serviços</Link>
+          <Link to="/D-plus">D-plus</Link>
+        </div>
       </ContainerPrincipal>
 
-      <WrapperClients>
-        <p>Mais Comprados</p>
-
-        <ImgClients>
-          <WrapperImg>
-            <img src={testeClient} alt="XD" />
-
-            <p>Via Uni</p>
-          </WrapperImg>
-
-          <WrapperImg>
-            <img src={testeClient} alt="XD" />
-
-            <p>Via Uni</p>
-          </WrapperImg>
-
-          <WrapperImg>
-            <img src={testeClient} alt="XD" />
-
-            <p>Via Uni</p>
-          </WrapperImg>
-
-          <WrapperImg>
-            <img src={testeClient} alt="XD" />
-
-            <p>Via Uni</p>
-          </WrapperImg>
-          <WrapperImg>
-            <img src={testeClient} alt="XD" />
-
-            <p>Via Uni</p>
-          </WrapperImg>
-          <WrapperImg>
-            <img src={testeClient} alt="XD" />
-
-            <p>Via Uni</p>
-          </WrapperImg>
-        </ImgClients>
-      </WrapperClients>
+      <ContantImg>
+        <img alt="Fundo" src={Imgfundo}></img>
+      </ContantImg>
 
       <WrapperServices>
-        <h2>Nossos Serviços</h2>
+        <h2>Design Gráfico e Mentoria Digital</h2>
 
-        <CardBox>
-          <CardServices>
-            <Link to={"#"}>
-              <img src={testeCard} alt="esmeralda" loading="lazy" />
-            </Link>
+        <SearchSection>
+          <div>
+            <section>
+              <label>
+                <BiSearchAlt />
+              </label>
 
-            <div>
-              <h3>Apresentações Profissionais</h3>
-              <p>R$10,00</p>
-            </div>
-          </CardServices>
+              <InputForm
+                type="text"
+                placeholder="Pesquisar..."
+                onChange={(ev) => setBusca(ev.target.value)}
+              />
+            </section>
+          </div>
+        </SearchSection>
 
-          <CardServices>
-            <Link to={"#"}>
-              <img src={testeCard} alt="esmeralda" loading="lazy" />
-            </Link>
+        <Wrapper>
+          <CardBox>
+            {ServiceFiltrados
+              ? ServiceFiltrados?.map((service) => (
+                  <Suspense
+                    fallback={<div>Carregando...</div>}
+                    key={service.idService}
+                  >
+                    <Card Information={service} />
+                  </Suspense>
+                ))
+              : false}
+          </CardBox>
 
-            <div>
-              <h3>Desenvolvimento de sites</h3>
-              <p>R$10,00</p>
-            </div>
-          </CardServices>
-
-          <CardServices>
-            <Link to={"#"}>
-              <img src={testeCard} alt="esmeralda" loading="lazy" />
-            </Link>
-
-            <div>
-              <h3>Canecas personalizadas</h3>
-              <p>R$10,00</p>
-            </div>
-          </CardServices>
-
-          <CardServices>
-            <Link to={"#"}>
-              <img src={testeCard} alt="esmeralda" loading="lazy" />
-            </Link>
-
-            <div>
-              <h3>Configuração de Redes Sociais</h3>
-              <p>R$10,00</p>
-            </div>
-          </CardServices>
-
-          <CardServices>
-            <Link to={"#"}>
-              <img src={testeCard} alt="esmeralda" loading="lazy" />
-            </Link>
-
-            <div>
-              <h3>Title</h3>
-              <p>R$10,00</p>
-            </div>
-          </CardServices>
-
-          <CardServices>
-            <Link to={"#"}>
-              <img src={testeCard} alt="esmeralda" loading="lazy" />
-            </Link>
-
-            <div>
-              <h3>Title</h3>
-              <p>R$10,00</p>
-            </div>
-          </CardServices>
-        </CardBox>
+          {!ServiceFiltrados ? (
+            <NotFoundContainer>
+              {console.log(ServiceFiltrados)}
+              <p>Não há dados...</p>
+            </NotFoundContainer>
+          ) : (
+            false
+          )}
+        </Wrapper>
       </WrapperServices>
+
+      <WrapperPlan>
+        <p>D-PLUS</p>
+      </WrapperPlan>
 
       <Footer />
     </Container>

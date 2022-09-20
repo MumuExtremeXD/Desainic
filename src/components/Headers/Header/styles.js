@@ -13,19 +13,14 @@ export const Nav = styled.div`
   z-index: 5;
   width: 100%;
 
-  padding: 12px 0px;
   transition: all 0.2s ease-in-out;
+  background-color: white;
 
   > div > div > i {
     color: #666366;
   }
 
-  @media (max-width: 768px) {
-    display: none;
-    padding: 3px 0px;
-  }
-
-  @media (min-width: 768px) {
+  @media (min-width: 320px) {
     &.scrollMenu {
       background-color: white;
       box-shadow: 0px 1px 10px -5px rgba(0, 0, 0, 0.33);
@@ -65,14 +60,14 @@ export const EffectOverlay = styled.div`
 export const Content = styled.div`
   max-width: 1440px;
   margin: 0 auto;
-  padding: 3px 25px 3px;
+  padding: 10px 35px 5px;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  @media (max-width: 768px) {
-    padding: 10px 15px 10px 5px;
+  @media (max-width: 800px) {
+    padding: 15px 15px 15px 5px;
   }
 
   @media (max-width: 425px) {
@@ -91,10 +86,13 @@ export const Content = styled.div`
       margin-left: 15px;
       padding-top: 5px;
       width: 100%;
-      max-width: 220px;
+      max-width: 120px;
+
+      @media (min-width: 0px) {
+        max-width: 45px;
+      }
 
       @media (max-width: 425px) {
-        max-width: 190px;
         margin-left: 0px;
       }
     }
@@ -103,13 +101,27 @@ export const Content = styled.div`
   > div {
     > i {
       color: var(--primary);
-      font-size: 25px;
+      font-size: 35px;
       cursor: pointer;
+    }
+  }
+
+  > .icon {
+    @media (min-width: 1020px) {
+      display: none;
     }
   }
 
   @media (max-width: 868px) {
     max-width: 100%;
+  }
+`;
+
+export const DivMenuDesktop = styled.div`
+  display: none;
+
+  @media (min-width: 1020px) {
+    display: inline-flex;
   }
 `;
 
@@ -120,18 +132,22 @@ export const Ul = styled.ul`
 
   top: 0;
 
-  display: inline-flex;
-  padding: 80px 60px 80px 0px;
-
-  transition: all 0.4s ease;
-
   @media (min-width: 2560px) {
     left: 800px;
     width: 25%;
   }
 
+  display: inline-flex;
+  padding: 80px 60px 80px 0px;
+
+  transition: all 0.4s ease;
+
   @media (max-width: 425px) {
     padding: 70px 45px 80px 0px;
+  }
+
+  > .icon {
+    display: none;
   }
 
   > div > i {
@@ -149,7 +165,7 @@ export const Ul = styled.ul`
     transition: all 0.4s ease;
 
     &:hover {
-      transform: scale(1.04);
+      transform: scale(1.16);
 
       @media (max-width: 868px) {
         transform: scale(1.06);
@@ -162,21 +178,21 @@ export const Ul = styled.ul`
       justify-content: flex-end;
 
       > button {
-        max-width: 160px;
-        background: #00a2ff;
+        max-width: 180px;
+        background: #7cb407;
 
         outline: none;
         border: none;
 
         border-radius: 4px;
-        padding: 6px 0px;
+        padding: 10px 0px;
         width: 100%;
 
         transition: all 0.2s ease;
 
         outline: none;
         border: none;
-        font-size: 18px;
+        font-size: 22px;
 
         color: white;
         cursor: pointer;
@@ -245,13 +261,13 @@ export const Ul = styled.ul`
   > li {
     margin-top: 45px;
     > a {
-      font-size: 16px;
+      font-size: 25px;
       color: var(--black);
     }
 
     > button {
       background: transparent;
-      font-size: 18px;
+      font-size: 22px;
       color: var(--primary);
     }
   }
@@ -269,7 +285,8 @@ export const UlDesktop = styled.ul`
   display: inline-flex;
   align-items: center;
 
-  padding: 0px 10px;
+  padding: 5px 10px 5px 10px;
+
   transition: all 0.4s ease;
 
   > li {
@@ -277,36 +294,36 @@ export const UlDesktop = styled.ul`
     transition: all 0.4s ease;
 
     &:hover {
-      transform: scale(1.045);
+      transform: scale(1.16);
     }
 
     @media (max-width: 868px) {
       &:hover {
-        transform: scale(1.02);
+        transform: scale(1.1);
       }
     }
 
     > a {
       > button {
-        background: #00a2ff;
+        background: #7cb407;
 
         outline: none;
         border: 1px;
 
         border-radius: 4px;
-        padding: 15px 5px;
-
-        max-width: 150px;
+        padding: 20px 5px;
         width: 100%;
 
         transition: all 0.2s ease;
 
         outline: none;
         border: none;
-        font-size: 16px;
+        font-size: 17px;
 
         color: white;
         cursor: pointer;
+
+        width: 100%;
 
         @media (max-width: 605px) {
           font-size: 14px;
@@ -317,9 +334,9 @@ export const UlDesktop = styled.ul`
     > a,
     > a:active,
     > a:visited {
-      font-size: 16px;
-      font-weight: 400;
-      margin-left: 16px;
+      font-size: 18px;
+      font-weight: 500;
+      margin-left: 25px;
       transition: all 0.3s;
 
       text-decoration: none;

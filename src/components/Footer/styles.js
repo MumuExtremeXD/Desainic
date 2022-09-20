@@ -15,9 +15,6 @@ export const Container = styled.footer`
   bottom: 0;
 
   padding: 30px 0px 0px;
-  @media (max-width: 768px) {
-    margin-bottom: 80px;
-  }
 `;
 
 export const Wrapper = styled.div`

@@ -2,10 +2,19 @@ import React, { useState, useEffect } from "react";
 
 import { Link } from "react-router-dom";
 
-import { Nav, Content, Ul, EffectOverlay } from "./styles";
+import {
+  Nav,
+  Content,
+  Ul,
+  DivMenuDesktop,
+  UlDesktop,
+  EffectOverlay,
+} from "./styles";
 
 import { CgMenuRight } from "react-icons/cg";
 import { IoMdCloseCircle } from "react-icons/io";
+
+import logo from "../../../images/Perfil.png";
 
 const scrollThreshold = 1;
 
@@ -31,7 +40,7 @@ function Header() {
       <Content menu={open}>
         <div className="logo">
           <Link to={"../"}>
-            <img src={"logo"} alt="Sir Pigue" />
+            <img src={logo} alt="Desainic" />
           </Link>
         </div>
 
@@ -47,11 +56,19 @@ function Header() {
           </li>
 
           <li>
-            <Link to={"../dicas"}>Dicas</Link>
+            <Link to={"../gramas"}>Gramas</Link>
+          </li>
+
+          <li>
+            <Link to={"../quallystrato/7"}>Qually Strato</Link>
           </li>
 
           <li>
             <Link to={"../sobre-nos"}>Sobre nós</Link>
+          </li>
+
+          <li>
+            <Link to={"../ajuda"}>Ajuda</Link>
           </li>
 
           <li>
@@ -64,6 +81,22 @@ function Header() {
             </a>
           </li>
         </Ul>
+
+        <DivMenuDesktop>
+          <UlDesktop className={classes}>
+            <li>
+              <Link to={"../Comunidade"}>Comunidade</Link>
+            </li>
+
+            <li>
+              <Link to={"../Servicos"}>Serviços</Link>
+            </li>
+
+            <li>
+              <Link to={"../D-plus"}>D-Plus</Link>
+            </li>
+          </UlDesktop>
+        </DivMenuDesktop>
 
         <div className="icon" onClick={() => setOpen(!open)}>
           <i>

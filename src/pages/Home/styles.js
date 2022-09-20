@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-import testeP from "../../images/FundoP.png";
-
 export const Container = styled.div`
   width: 100% !important;
   height: 100%;
@@ -11,115 +9,179 @@ export const Container = styled.div`
   align-items: center;
   background: var(--secondary);
 
-  margin: 0 auto;
+  margin: 6% auto 0px;
 
   flex-direction: column;
   position: relative;
+
+  @media (max-width: 425px) {
+    margin: 7% auto 0px;
+  }
 `;
 
 export const ContainerPrincipal = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 
   width: 100%;
-  min-height: 500px;
+  text-align: center;
+  margin-top: 35px;
+
+  @media (max-width: 768px) {
+    padding: 15px;
+  }
+
+  @media (max-width: 320px) {
+    margin: 15% auto 0px;
+  }
 
   overflow: hidden;
 
-  background-image: url(${testeP});
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  > h1 {
+    max-width: 740px;
+    font-size: 64px;
+
+    @media (max-width: 650px) {
+      font-size: 38px;
+    }
+
+    @media (max-width: 425px) {
+      font-size: 34px;
+    }
+  }
+
+  > p {
+    max-width: 740px;
+    @media (max-width: 650px) {
+      font-size: 14px;
+    }
+  }
+
+  > div {
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    gap: 0px 30px;
+    max-width: 740px;
+
+    > a {
+      border-radius: 46px;
+      padding: 16px 38px;
+
+      font-size: 26px;
+      background-color: var(--primary);
+
+      color: white;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+      @media (max-width: 650px) {
+        font-size: 14px;
+      }
+    }
+  }
 `;
 
-export const WrapperClients = styled.div`
+export const SearchSection = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
 
+  flex-wrap: wrap;
+
   width: 100%;
-  flex-direction: column;
 
-  padding-top: 30px;
+  margin: 0 auto;
+  top: 0;
 
-  @media (max-width: 768px) {
-    justify-content: flex-start;
-    align-items: flex-start;
+  > div {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    font-size: 100%;
+
+    z-index: 4;
+
+    max-width: 650px;
+    width: 100%;
+    min-width: 290px;
+
+    display: block;
+    padding: 0px 20px;
+
+    @media (max-width: 425px) {
+      padding: 0px 0px;
+      max-width: 100%;
+    }
+
+    > section {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      width: 100%;
+
+      border-radius: 8px;
+      background: #fff;
+
+      margin-top: 25px;
+      box-shadow: 0px 8px 20px rgb(0 0 0 / 6%);
+
+      > label > svg {
+        margin-left: 25px;
+        outline: none;
+        font-size: 25px;
+        cursor: pointer;
+        fill: var(--third);
+      }
+    }
   }
+`;
+
+export const InputForm = styled.input`
+  outline: none;
+
+  width: 100%;
+  height: 55px;
+  padding: 0px 15px 0px 15px;
+
+  border: none;
+
+  cursor: text;
+
+  line-height: 28px;
+  font-size: 17px;
+  font-weight: 400;
+`;
+
+export const NotFoundContainer = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: center;
 
   > p {
-    color: #000;
-    font-size: 2.2rem;
-    font-weight: 700;
+    padding-top: 40px;
 
-    @media (max-width: 768px) {
-      padding-left: 15px;
-    }
+    font-weight: bold;
+    font-size: 3.4rem;
+
+    color: var(--gray);
   }
 `;
 
-export const ImgClients = styled.div`
-  width: 100%;
-
-  display: flex;
-  justify-content: center;
-
-  gap: 0 25px;
-  margin: 25px 0px 25px;
-
-  @media (max-width: 768px) {
-    padding: 0 15px;
-    gap: 34px;
-
-    > a > img {
-      border-radius: 12px;
-      max-width: 420px;
-      width: 100%;
-    }
-
-    justify-content: flex-start;
-    align-items: flex-start;
-
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-
-    &::-webkit-scrollbar {
-      -ms-overflow-style: none; /* Internet Explorer 10+ */
-      scrollbar-width: none; /* Firefox */
-      display: none; /* Safari and Chrome */
-    }
-  }
-
-  @media (max-width: 425px) {
-    padding: 0 15px;
-
-    > a > img {
-      border-radius: 12px;
-      max-width: 380px;
-      width: 100%;
-    }
-    justify-content: flex-start;
-    align-items: flex-start;
-
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-  }
-`;
-
-export const WrapperImg = styled.div`
+export const ContantImg = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 
   > img {
-    cursor: pointer;
-    border-radius: 50%;
-    max-width: 120px;
-    min-width: 100px;
-    width: 70%;
+    max-width: 1240px;
+    width: 100%;
   }
+
+  margin-bottom: 40px;
 `;
 
 export const WrapperServices = styled.div`
@@ -133,7 +195,11 @@ export const WrapperServices = styled.div`
   width: 100%;
 
   border-radius: 50% 50% 0 0;
-  padding: 30px 0px 45px 0px;
+  padding: 0px 0px 45px 0px;
+
+  @media (max-width: 768px) {
+    padding: 15px;
+  }
 
   @media (max-width: 750px) {
     justify-content: center;
@@ -143,13 +209,32 @@ export const WrapperServices = styled.div`
 
   > h2 {
     color: #000;
-    font-size: 2.2rem;
+    font-size: 64px;
     font-weight: 700;
     text-align: center;
+    max-width: 840px;
 
-    @media (max-width: 768px) {
+    @media (max-width: 650px) {
+      font-size: 38px;
+    }
+
+    @media (max-width: 425px) {
+      font-size: 34px;
     }
   }
+`;
+
+export const Wrapper = styled.div`
+  margin-top: 30px;
+  width: 100%;
+  max-width: 1440px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+  text-align: center;
 `;
 
 export const CardBox = styled.div`
@@ -163,7 +248,7 @@ export const CardBox = styled.div`
   align-items: center;
 
   border-radius: 50% 50% 0 0;
-  padding: 5px 15px 35px;
+  padding: 5px 15px 10px;
 
   grid-gap: 30px 20px;
 
@@ -349,5 +434,28 @@ export const WrapperChroma = styled.div`
     &:hover:before {
       bottom: 0;
     }
+  }
+`;
+
+export const WrapperPlan = styled.div`
+  margin-top: 60px;
+  margin-bottom: 80px;
+  width: 100%;
+  max-width: 1440px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    padding: 15px;
+  }
+
+  flex-direction: column;
+  text-align: center;
+
+  > p {
+    font-size: 1.15rem;
+    padding: 0 15px;
   }
 `;

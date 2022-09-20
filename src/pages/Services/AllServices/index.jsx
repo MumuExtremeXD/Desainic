@@ -10,25 +10,25 @@ import {
   NotFoundContainer,
 } from "./styles";
 
-import data from "../../../data/grassData";
-
+import data from "../../../data/serviceData";
 import { BiSearchAlt } from "react-icons/bi";
 
 import Header from "../../../components/Headers/Header";
 import Footer from "../../../components/Footer";
 
-const Card = React.lazy(() => import("../../../components/CardProducts"));
+const Card = React.lazy(() => import("../../../components/CardServices"));
 
 const FiltrarItens = (data, busca) => {
   const lowerBusca = busca.toLowerCase();
 
   try {
     if (
-      data.filter((grama) => grama?.keyWords.toLowerCase().includes(lowerBusca))
-        .length > 0
+      data.filter((service) =>
+        service?.nameService.toLowerCase().includes(lowerBusca)
+      ).length > 0
     ) {
-      return data.filter((grama) =>
-        grama?.keyWords.toLowerCase().includes(lowerBusca)
+      return data.filter((service) =>
+        service?.nameService.toLowerCase().includes(lowerBusca)
       );
     }
   } catch (error) {
@@ -36,9 +36,9 @@ const FiltrarItens = (data, busca) => {
   }
 };
 
-function Products() {
+function Services() {
   const [busca, setBusca] = useState("");
-  const ProdsFiltrados = useMemo(() => FiltrarItens(data, busca), [busca]);
+  const ServiceFiltrados = useMemo(() => FiltrarItens(data, busca), [busca]);
 
   useEffect(() => {
     return () => {
@@ -71,11 +71,11 @@ function Products() {
       </SearchSection>
       <Wrapper>
         <Box>
-          {ProdsFiltrados
-            ? ProdsFiltrados?.map((prod) => (
+          {ServiceFiltrados
+            ? ServiceFiltrados?.map((prod) => (
                 <Suspense
                   fallback={<div>Carregando...</div>}
-                  key={prod.idGrama}
+                  key={prod.idService}
                 >
                   <Card Information={prod} />
                 </Suspense>
@@ -83,7 +83,7 @@ function Products() {
             : false}
         </Box>
 
-        {!ProdsFiltrados ? (
+        {!ServiceFiltrados ? (
           <NotFoundContainer>
             <p>Não há dados...</p>
           </NotFoundContainer>
@@ -97,4 +97,4 @@ function Products() {
   );
 }
 
-export default Products;
+export default Services;

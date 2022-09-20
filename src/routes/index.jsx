@@ -4,18 +4,8 @@ import loadable from "@loadable/component";
 
 import Home from "../pages/Home";
 
-const ServiceDesignGraph = loadable(() =>
-  import("../pages/Services/DesignGraph")
-);
-const ServiceDesignVirtual = loadable(() =>
-  import("../pages/Services/DesignVirt")
-);
-const ServiceWebDesign = loadable(() => import("../pages/Services/WebDesign"));
-const ServiceMarketingDigital = loadable(() =>
-  import("../pages/Services/MarketingDigital")
-);
-
 const AllServices = loadable(() => import("../pages/Services/AllServices"));
+const UniService = loadable(() => import("../pages/Services/Service"));
 
 const NotFound = loadable(() => import("../pages/NotFound"));
 const Terms = loadable(() => import("../pages/Terms"));
@@ -29,12 +19,10 @@ function routes() {
       {/* Serviços  */}
       <Route path="/Servicos" element={<AllServices />} />
 
-      <Route path="/Designer-Grafico" element={<ServiceDesignGraph />} />
-      <Route path="/Designer-Virtual" element={<ServiceDesignVirtual />} />
-      <Route path="/Web Designer" element={<ServiceWebDesign />} />
-      <Route path="/Marketing Digital" element={<ServiceMarketingDigital />} />
+      {/* Serviço */}
+      <Route path="/servico/:id" element={<UniService />} />
 
-      {/* Empresa  */}
+      {/* Desainic  */}
       <Route path="/termos" element={<Terms />} />
       <Route path="/termosCookies" element={<TermsCookies />} />
 
