@@ -2,7 +2,9 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 
-  html {
+
+ 
+html {
     scroll-behavior: smooth;
   }
 
@@ -10,6 +12,7 @@ export default createGlobalStyle`
     font-family: "Poppins", sans-serif;
     background:#fff;
   }
+
 
   * {
     margin: 0;
@@ -29,6 +32,8 @@ export default createGlobalStyle`
   scrollbar-width: thin;
   scrollbar-color: blue orange;
 }
+
+
 
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
