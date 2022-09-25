@@ -157,14 +157,17 @@ export const WrapperVantagens = styled.div`
   display: flex;
   width: 100%;
 
-  margin: 30px 0px;
+  margin: 6px 0px;
 
   justify-content: center;
   padding: 40px 0px 40px 80px;
 
   @media (max-width: 768px) {
-    padding: 40px 60px 40px 60px;
+    padding: 5px 60px 40px 60px;
     flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
   }
 
   > ul {
@@ -197,8 +200,8 @@ export const ContainerCta = styled.div`
   margin: 35px auto 45px;
 
   @media (max-width: 768px) {
-    margin: 70px auto 0px;
-    padding: 15px;
+    margin: 0px auto;
+    padding: 10px;
   }
 
   overflow: hidden;
@@ -206,14 +209,14 @@ export const ContainerCta = styled.div`
   > p {
     max-width: 740px;
     font-size: 24px;
+
     @media (max-width: 650px) {
       margin-top: 15px;
-      font-size: 18px;
+      font-size: 22px;
     }
   }
 
   > div {
-    margin: 30px 0px 30px 0px;
     display: flex;
     gap: 0px 30px;
     max-width: 740px;
@@ -221,6 +224,7 @@ export const ContainerCta = styled.div`
     > a {
       border-radius: 46px;
       padding: 16px 38px;
+      margin: 35px 0px 20px 0px;
 
       font-size: 26px;
       background-color: var(--primary);
@@ -228,7 +232,8 @@ export const ContainerCta = styled.div`
       color: white;
       box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 
-      @media (max-width: 650px) {
+      @media (max-width: 768px) {
+        padding: 26px 16px;
         font-size: 20px;
       }
 
