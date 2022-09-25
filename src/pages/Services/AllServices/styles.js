@@ -60,7 +60,7 @@ export const SearchSection = styled.div`
   }
 
   @media (max-width: 425px) {
-    height: 240px;
+    height: 210px;
   }
 
   > img {
@@ -215,6 +215,10 @@ export const Wrapper = styled.div`
   > p {
     font-size: 1.15rem;
     padding: 0 15px;
+  }
+
+  @media (max-width: 425px) {
+    margin-top: 90px;
   }
 `;
 

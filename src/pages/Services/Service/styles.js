@@ -103,7 +103,7 @@ export const ServiceImg = styled.div`
       @media (max-width: 425px) {
         max-width: 100%;
         width: 100%;
-        margin: -20px 0px 0px 0px;
+        margin: -5px 0px 0px 0px;
       }
     }
 
@@ -165,7 +165,7 @@ export const ServiceImg = styled.div`
 
     > div {
       @media (max-width: 425px) {
-        margin: -30px 0px 0px 0px;
+        margin: -10px 0px 0px 0px;
       }
 
       a {
