@@ -31,7 +31,7 @@ export const ContainerPrincipal = styled.div`
   margin: 35px auto 0px;
 
   @media (max-width: 768px) {
-    margin: 85px auto 0px;
+    margin: 70px auto 0px;
     padding: 15px;
   }
 
@@ -219,7 +219,8 @@ export const WrapperServices = styled.div`
     max-width: 840px;
 
     @media (max-width: 650px) {
-      font-size: 38px;
+      padding: 0 10px;
+      font-size: 40px;
     }
 
     @media (max-width: 425px) {
@@ -453,6 +454,7 @@ export const WrapperPlan = styled.div`
 
   @media (max-width: 768px) {
     padding: 15px;
+    margin-bottom: 0px;
   }
 
   flex-direction: column;
@@ -465,6 +467,15 @@ export const WrapperPlan = styled.div`
     font-size: 50px;
     padding: 0 15px;
     margin-bottom: 20px;
+
+    @media (max-width: 650px) {
+      padding: 0 10px;
+      font-size: 40px;
+    }
+
+    @media (max-width: 425px) {
+      font-size: 34px;
+    }
   }
 
   > p {
@@ -498,6 +509,15 @@ export const WrapperDplus = styled.div`
     font-size: 40px;
     padding: 0 15px;
     margin-bottom: 20px;
+
+    @media (max-width: 650px) {
+      padding: 0 10px;
+      font-size: 40px;
+    }
+
+    @media (max-width: 425px) {
+      font-size: 34px;
+    }
   }
 
   > h5 {
@@ -508,6 +528,14 @@ export const WrapperDplus = styled.div`
 
     padding: 0 15px;
     margin-bottom: 20px;
+
+    @media (max-width: 650px) {
+      font-size: 25px;
+    }
+
+    @media (max-width: 425px) {
+      font-size: 20px;
+    }
   }
 
   > a {
@@ -559,7 +587,7 @@ export const WrapperVantagens = styled.div`
 `;
 
 export const WrapperCommunity = styled.div`
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 80px;
   width: 100%;
   max-width: 1440px;
@@ -570,6 +598,7 @@ export const WrapperCommunity = styled.div`
 
   @media (max-width: 768px) {
     padding: 15px;
+    margin-bottom: 50px;
   }
 
   flex-direction: column;
@@ -578,10 +607,21 @@ export const WrapperCommunity = styled.div`
   > p:first-child {
     color: #333c43;
     max-width: 940px;
+
     font-weight: 700;
     font-size: 50px;
+
     padding: 0 15px;
     margin-bottom: 20px;
+
+    @media (max-width: 650px) {
+      margin-bottom: 10px;
+      font-size: 25px;
+    }
+
+    @media (max-width: 425px) {
+      font-size: 20px;
+    }
   }
 
   > p {
