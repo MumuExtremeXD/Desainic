@@ -20,7 +20,7 @@ function Plan() {
       <Header />
 
       <ContainerPrincipal>
-        <h1>Assuma o controle de suas mídias sociais</h1>
+        <h1>Com o plano D-PLUS</h1>
 
         <p>
           Mantenha-se organizado, economize tempo e gerencie facilmente suas
