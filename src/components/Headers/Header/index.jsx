@@ -85,11 +85,11 @@ function Header() {
         <DivMenuDesktop>
           <UlDesktop className={classes}>
             <li>
-              <Link to={"../Comunidade"}>Comunidade</Link>
+              <Link to={"../Servicos"}>Serviços</Link>
             </li>
 
             <li>
-              <Link to={"../Servicos"}>Serviços</Link>
+              <Link to={"../Comunidade"}>Comunidade</Link>
             </li>
 
             <li>

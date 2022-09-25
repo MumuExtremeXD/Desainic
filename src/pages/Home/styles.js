@@ -9,10 +9,14 @@ export const Container = styled.div`
   align-items: center;
   background: var(--secondary);
 
-  margin: 6% auto 0px;
+  margin: 85px auto 0px;
 
   flex-direction: column;
   position: relative;
+
+  @media (max-width: 768px) {
+    margin: 6% auto 0px;
+  }
 
   @media (max-width: 425px) {
     margin: 7% auto 0px;
@@ -253,24 +257,24 @@ export const CardBox = styled.div`
   align-items: center;
 
   border-radius: 50% 50% 0 0;
-  padding: 5px 15px 10px;
+  padding: 5px 8px 10px;
 
-  grid-gap: 30px 20px;
+  grid-gap: 30px 10px;
 
   @media (max-width: 1024px) {
     grid-template-columns: repeat(auto-fit, minmax(280px, 290px));
-    grid-gap: 20px 20px;
+    grid-gap: 20px 10px;
   }
 
   @media (max-width: 768px) {
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 15px;
+    grid-column-gap: 8px;
     grid-row-gap: 30px;
   }
 
   @media (max-width: 750px) {
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 15px;
+    grid-column-gap: 8px;
     grid-row-gap: 30px;
   }
 `;

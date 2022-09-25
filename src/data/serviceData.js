@@ -6,7 +6,7 @@ export default [
   {
     idService: 1,
     nameService: "Cartão Virtual",
-    price: "14,00m²",
+    price: "14,00",
 
     img: `${ImgEsmeralda1}`,
     description:
@@ -27,7 +27,7 @@ export default [
   {
     idService: 2,
     nameService: "Cartão de visita",
-    price: "14,00m²",
+    price: "14,00",
 
     img: `${ImgEsmeralda1}`,
     description: "De solos.",
@@ -47,7 +47,7 @@ export default [
   {
     idService: 3,
     nameService: "Carrossel",
-    price: "14,00m²",
+    price: "14,00",
 
     img: `${ImgEsmeralda1}`,
     description: "De solos.",
@@ -67,7 +67,7 @@ export default [
   {
     idService: 4,
     nameService: "Social media",
-    price: "14,00m²",
+    price: "14,00",
 
     img: `${ImgEsmeralda1}`,
     description: "De solos.",
@@ -87,7 +87,7 @@ export default [
   {
     idService: 5,
     nameService: "Livro",
-    price: "14,00m²",
+    price: "14,00",
 
     img: `${ImgEsmeralda1}`,
     description: "De solos.",
@@ -107,7 +107,7 @@ export default [
   {
     idService: 6,
     nameService: "E-book",
-    price: "14,00m²",
+    price: "14,00",
 
     img: `${ImgEsmeralda1}`,
     description: "De solos.",
@@ -127,7 +127,7 @@ export default [
   {
     idService: 7,
     nameService: "Publicações",
-    price: "14,00m²",
+    price: "14,00",
 
     img: `${ImgEsmeralda1}`,
     description: "De solos.",
@@ -147,7 +147,7 @@ export default [
   {
     idService: 8,
     nameService: "Stories",
-    price: "14,00m²",
+    price: "14,00",
 
     img: `${ImgEsmeralda1}`,
     description: "De solos.",
@@ -167,7 +167,7 @@ export default [
   {
     idService: 9,
     nameService: "Edição de Slides",
-    price: "14,00m²",
+    price: "14,00",
 
     img: `${ImgEsmeralda1}`,
     description: "De solos.",

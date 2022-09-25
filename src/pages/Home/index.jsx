@@ -167,7 +167,7 @@ function Home() {
           <h5>Além disso, você contribui para criação de um mundo melhor!</h5>
           <p>
             A cada plano fechado, será <strong>doado</strong> o valor de
-            <strong>R$5,00</strong> por mês para instituições de caridade.
+            <strong> R$5,00</strong> por mês para instituições de caridade.
           </p>
         </WrapperDplus>
       </WrapperPlan>

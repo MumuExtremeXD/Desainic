@@ -28,22 +28,6 @@ export const Section = styled.div`
   @media (max-width: 645px) {
     font-size: 4.6rem;
   }
-
-  > h2 {
-    font-size: 7.8rem;
-
-    @media (max-width: 645px) {
-      font-size: 4.6rem;
-    }
-
-    @media (max-width: 425px) {
-      font-size: 3.6rem;
-    }
-
-    > span {
-      color: var(--primary);
-    }
-  }
 `;
 
 export const CardService = styled.div`
@@ -86,6 +70,7 @@ export const ServiceImg = styled.div`
     }
 
     > img {
+      border-radius: 8px;
       cursor: pointer;
       width: 100%;
       max-width: 680px;
@@ -108,8 +93,9 @@ export const ServiceImg = styled.div`
     }
 
     > h3 {
-      color: #333c43;
-      font-size: 14px;
+      color: #333;
+      font-weight: 600;
+      font-size: 18px;
     }
 
     > p {
@@ -125,7 +111,7 @@ export const ServiceImg = styled.div`
 
     > .Text1 {
       margin-top: 20px;
-      font-size: 10px;
+      font-size: 14px;
       min-width: 250px;
       max-width: 450px;
 
@@ -152,7 +138,7 @@ export const ServiceImg = styled.div`
       }
 
       > label {
-        font-size: 10px;
+        font-size: 13px;
 
         font-weight: 400;
         color: #333c43;
@@ -190,7 +176,7 @@ export const ServiceImg = styled.div`
 
     > .Text2 {
       margin-top: 45px;
-      font-size: 13px;
+      font-size: 14px;
       min-width: 250px;
       max-width: 450px;
 
@@ -202,8 +188,8 @@ export const ServiceImg = styled.div`
     }
 
     > .Text3 {
-      margin-top: 15px;
-      font-size: 13px;
+      margin-top: 25px;
+      font-size: 14px;
       min-width: 250px;
       max-width: 450px;
 
@@ -233,7 +219,7 @@ export const ServiceInfo = styled.div`
 
   > p {
     max-width: 850px;
-    margin: 10px 0 30px;
+    margin: 10px 0px 0px;
 
     padding: 1px 0px;
     font-size: 16px;
@@ -307,18 +293,18 @@ export const WrapperDplus = styled.div`
   align-items: center;
   justify-content: center;
 
-  background: rgba(122, 102, 240, 0.2);
+  background: #f9f3ff;
   border-radius: 20px;
 
   max-width: 1180px;
   width: 100%;
 
-  margin-bottom: 80px;
+  margin-bottom: 55px;
 
   padding: 40px 0px 40px 0px;
 
   @media (max-width: 425px) {
-    padding: 40px 10px 0px 10px;
+    padding: 40px 10px 25px 10px;
   }
 
   > h4 {
@@ -389,6 +375,10 @@ export const WrapperDplus = styled.div`
     color: #444;
 
     text-align: center;
+
+    @media (max-width: 425px) {
+      font-size: 17px;
+    }
   }
 `;
 
@@ -427,6 +417,8 @@ export const WrapperVantagens = styled.div`
   }
 
   > div > img {
+    border-radius: 24px;
+
     @media (max-width: 768px) {
       margin-top: 30px;
     }

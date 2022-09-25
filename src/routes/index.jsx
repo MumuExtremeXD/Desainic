@@ -7,6 +7,8 @@ import Home from "../pages/Home";
 const AllServices = loadable(() => import("../pages/Services/AllServices"));
 const UniService = loadable(() => import("../pages/Services/Service"));
 
+const Plan = loadable(() => import("../pages/Plan"));
+
 const NotFound = loadable(() => import("../pages/NotFound"));
 const Terms = loadable(() => import("../pages/Terms"));
 const TermsCookies = loadable(() => import("../pages/TermsCookies"));
@@ -21,6 +23,9 @@ function routes() {
 
       {/* Serviço */}
       <Route path="/servico/:id" element={<UniService />} />
+
+      {/* Plano */}
+      <Route path="/D-plus" element={<Plan />} />
 
       {/* Desainic  */}
       <Route path="/termos" element={<Terms />} />

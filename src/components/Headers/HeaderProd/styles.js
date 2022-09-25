@@ -10,7 +10,7 @@ export const Nav = styled.div`
   z-index: 5;
 
   transition: all 0.3s ease-in-out;
-  box-shadow: 0px 1px 6px -5px rgba(0, 0, 0, 0.33);
+  box-shadow: 0px 1px 6px -5px rgba(0, 0, 0, 0.22);
 
   background-color: white;
 `;
