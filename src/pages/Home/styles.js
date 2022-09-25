@@ -31,7 +31,7 @@ export const ContainerPrincipal = styled.div`
   margin: 35px auto 0px;
 
   @media (max-width: 768px) {
-    margin: 65px auto 0px;
+    margin: 85px auto 0px;
     padding: 15px;
   }
 
@@ -76,6 +76,10 @@ export const ContainerPrincipal = styled.div`
       box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 
       @media (max-width: 650px) {
+        font-size: 20px;
+      }
+
+      @media (max-width: 350px) {
         font-size: 14px;
       }
     }
