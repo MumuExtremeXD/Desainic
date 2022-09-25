@@ -226,6 +226,8 @@ export const ContainerCta = styled.div`
       padding: 16px 38px;
       margin: 35px 0px 20px 0px;
 
+      min-width: 280px;
+
       font-size: 26px;
       background-color: var(--primary);
 
