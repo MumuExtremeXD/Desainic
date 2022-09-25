@@ -1,22 +1,34 @@
 /* eslint-disable eqeqeq */
 import React, { useState, useEffect } from "react";
 
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+
+import {
+  GiHighGrass,
+  GiGroundSprout,
+  GiArmorUpgrade,
+  GiCharcuterie,
+} from "react-icons/gi";
 
 import {
   Container,
   Section,
-  SearchSection,
   CardService,
   ServiceImg,
   ServiceInfo,
   BackUp,
+  ContantImg,
+  WrapperDplus,
+  WrapperVantagens,
+  Divider,
+  UlProduct,
 } from "./styles";
 
 import Header from "../../../components/Headers/HeaderProd";
 import Footer from "../../../components/Footer";
 
 import { TiArrowUpThick } from "react-icons/ti";
+import Imgfundo2 from "../../../images/fundoXD2.jpg";
 
 import ImgEnlarge from "../../../components/ImgEnlarge";
 import data from "../../../data/serviceData";
@@ -61,19 +73,11 @@ function Service() {
 
       {filterServiceId
         ? filterServiceId?.map((InforService) => (
-            <Section key={InforService.idDica}>
-              <SearchSection>
-                <div className="Headline">
-                  <h2>{InforService.title}</h2>
-                </div>
-              </SearchSection>
-
+            <Section key={InforService.idService}>
               <CardService>
                 <ServiceInfo>
-                  <p>{InforService.description}</p>
-
                   <ServiceImg>
-                    <div className="Img1">
+                    <div>
                       <img
                         src={InforService.img}
                         alt=""
@@ -85,21 +89,128 @@ function Service() {
                       />
                     </div>
 
-                    <div className="Img2">
-                      <img
-                        src={InforService.img}
-                        alt=""
-                        loading="lazy"
-                        onClick={function () {
-                          setIsImgVisible(true);
-                          return PropsImg(InforService.img);
-                        }}
-                      />
+                    <div>
+                      <h1>{InforService.nameService}</h1>
+                      <h3>{InforService.justificativa}</h3>
+
+                      <p className="Text1">A partir de*</p>
+                      <p className="TextPrice">
+                        R${InforService.price}
+                        <label> / {InforService.medida}</label>
+                      </p>
+
+                      <div>
+                        <a
+                          href={`https://api.whatsapp.com/send?phone=5515996918496&text=${InforService.nameService}`}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Solicitar serviço
+                        </a>
+                      </div>
+
+                      <p className="Text2">
+                        Você pode configurar as especificações do seu serviço e
+                        conferir o preço da simulação de compra.
+                      </p>
+
+                      <p className="Text3">
+                        * As imagens representadas são meramente ilustrativas.
+                      </p>
                     </div>
                   </ServiceImg>
+                  <h2>DETALHES DO SERVIÇO</h2>
 
                   <p>{InforService.description}</p>
+
+                  <Divider />
+
+                  <UlProduct>
+                    {InforService.dica1 && (
+                      <li>
+                        <i>
+                          <GiArmorUpgrade />
+                        </i>
+
+                        {InforService.dica1}
+                      </li>
+                    )}
+
+                    {InforService.dica2 && (
+                      <li>
+                        <i>
+                          <GiCharcuterie />
+                        </i>
+
+                        {InforService.dica2}
+                      </li>
+                    )}
+
+                    {InforService.dica3 && (
+                      <li>
+                        <i>
+                          <GiHighGrass />
+                        </i>
+
+                        {InforService.dica3}
+                      </li>
+                    )}
+
+                    {InforService.dica4 && (
+                      <li>
+                        <i>
+                          <GiGroundSprout />
+                        </i>
+
+                        {InforService.dica4}
+                      </li>
+                    )}
+                  </UlProduct>
                 </ServiceInfo>
+
+                <WrapperDplus>
+                  <h4>Plano D-Plus</h4>
+                  <WrapperVantagens>
+                    <ul>
+                      <li>
+                        <strong>DESCONTO</strong> de 10% em todos os serviços
+                      </li>
+                      <li>
+                        <strong>PRIORIDADE</strong> nos trabalhos
+                      </li>
+                      <li>
+                        <strong>DIVULGAÇÃO GRATUITA</strong>
+                        em nossas redes sociais (1 Publicação + 1 Stories por
+                        mês)
+                      </li>
+                      <li>
+                        <strong>AUXÍLIO</strong> na melhoria do conteudo
+                      </li>
+                      <li>Planilha organizacional de publicações</li>
+                      <li>
+                        <strong>4 ALTERAÇÕES</strong> sem cobrar
+                      </li>
+                      <li>
+                        Comunidade <strong>EXCLUSIVA</strong> para membros
+                      </li>
+                    </ul>
+
+                    <ContantImg>
+                      <img alt="Fundo" src={Imgfundo2}></img>
+                    </ContantImg>
+                  </WrapperVantagens>
+
+                  <Link to="/Plan">Saiba mais →</Link>
+
+                  <h5>
+                    Além disso, você contribui para criação de um mundo melhor!
+                  </h5>
+                  <p>
+                    A cada plano fechado, será <strong>doado</strong> o valor de
+                    <strong> R$5,00</strong> por mês para instituições de
+                    caridade.
+                  </p>
+                </WrapperDplus>
               </CardService>
             </Section>
           ))

@@ -46,7 +46,7 @@ export const SearchSection = styled.div`
   margin: 0 auto;
   top: 0;
 
-  background: #fafafa;
+  background: var(--primary);
 
   @media (min-width: 1441px) {
     background-attachment: scroll;
@@ -78,7 +78,7 @@ export const SearchSection = styled.div`
     @media (max-width: 425px) {
       object-fit: cover;
 
-      min-width: 300px;
+      min-width: 250px;
     }
   }
 
@@ -101,12 +101,7 @@ export const SearchSection = styled.div`
     > h2 {
       font-size: 2.5rem;
       font-weight: 800;
-      color: var(--third);
-    }
-
-    > p {
-      font-size: 1.2rem;
-      color: var(--five);
+      color: #fff;
     }
 
     @media (max-width: 768px) {
@@ -115,19 +110,13 @@ export const SearchSection = styled.div`
       > h2 {
         font-size: 1.9rem;
       }
-
-      > p {
-        font-size: 1rem;
-      }
     }
 
     @media (max-width: 425px) {
-      > h2 {
-        padding: 60px 35px 40px 35px;
-      }
+      margin-top: 18px;
 
-      > p {
-        display: none;
+      > h2 {
+        padding: 60px 35px 20px 35px;
       }
     }
 
@@ -135,10 +124,6 @@ export const SearchSection = styled.div`
       > h2 {
         font-size: 1.8rem;
         padding: 60px 10px 40px 10px;
-      }
-
-      > p {
-        display: none;
       }
     }
   }
@@ -242,8 +227,8 @@ export const Box = styled.div`
   gap: 30px 25px;
 
   grid-template-columns:
-    minmax(350px, 1fr)
-    repeat(auto-fill, minmax(350px, 1fr));
+    minmax(270px, 1fr)
+    repeat(auto-fill, minmax(270px, 1fr));
   grid-auto-rows: min-content;
 
   justify-items: center;
@@ -251,12 +236,12 @@ export const Box = styled.div`
 
   @media (max-width: 768px) {
     grid-template-columns:
-      minmax(340px, 1fr)
-      repeat(auto-fill, minmax(340px, 1fr));
+      minmax(240px, 1fr)
+      repeat(auto-fill, minmax(240px, 1fr));
     grid-auto-rows: min-content;
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 740px) {
     display: flex;
     align-items: center;
     justify-content: center;

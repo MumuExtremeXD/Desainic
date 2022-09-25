@@ -574,6 +574,11 @@ export const WrapperVantagens = styled.div`
 
   padding: 40px 0px 40px 80px;
 
+  @media (max-width: 768px) {
+    padding: 40px 60px 40px 60px;
+    flex-direction: column;
+  }
+
   > ul {
     text-align: left;
 
@@ -582,6 +587,12 @@ export const WrapperVantagens = styled.div`
     > li {
       font-size: 20px;
       margin-bottom: 10px;
+    }
+  }
+
+  > div > img {
+    @media (max-width: 768px) {
+      margin-top: 30px;
     }
   }
 `;
@@ -616,7 +627,7 @@ export const WrapperCommunity = styled.div`
 
     @media (max-width: 650px) {
       margin-bottom: 10px;
-      font-size: 25px;
+      font-size: 35px;
     }
 
     @media (max-width: 425px) {

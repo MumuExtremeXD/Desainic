@@ -14,13 +14,12 @@ export const Nav = styled.div`
   width: 100%;
 
   transition: all 0.2s ease-in-out;
-  background-color: white;
 
   > div > div > i {
     color: #666366;
   }
 
-  @media (min-width: 320px) {
+  @media (min-width: 0px) {
     &.scrollMenu {
       background-color: white;
       box-shadow: 0px 1px 10px -5px rgba(0, 0, 0, 0.33);

@@ -51,8 +51,7 @@ function Services() {
 
       <SearchSection>
         <div className="Headline">
-          <h2>Variedades de Grama</h2>
-          <p>Qualidade e Procedência Comprovada</p>
+          <h2>Design Gráfico e Mentoria Digital</h2>
         </div>
 
         <div>

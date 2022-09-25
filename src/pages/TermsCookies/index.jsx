@@ -36,7 +36,7 @@ const Terms = () => {
       <Container>
         <LogoBox>
           <Link to={"../"}>
-            <img src={Logo} alt="Qually Grama - Logo" />
+            <img src={Logo} alt="Desainic - Logo" />
           </Link>
         </LogoBox>
 
@@ -226,8 +226,8 @@ const Terms = () => {
           <h3>Compromisso do Usuário</h3>
           <p>
             O usuário se compromete a fazer uso adequado dos conteúdos e da
-            informação que o Qually Grama oferece no site e com caráter
-            enunciativo, mas não limitativo:
+            informação que o Desainic oferece no site e com caráter enunciativo,
+            mas não limitativo:
           </p>
           <ul>
             <li>
@@ -241,10 +241,10 @@ const Terms = () => {
             </li>
             <li>
               C) Não causar danos aos sistemas físicos (hardwares) e lógicos
-              (softwares) do Qually Grama, de seus fornecedores ou terceiros,
-              para introduzir ou disseminar vírus informáticos ou quaisquer
-              outros sistemas de hardware ou software que sejam capazes de
-              causar danos anteriormente mencionados.
+              (softwares) do Desainic, de seus fornecedores ou terceiros, para
+              introduzir ou disseminar vírus informáticos ou quaisquer outros
+              sistemas de hardware ou software que sejam capazes de causar danos
+              anteriormente mencionados.
             </li>
           </ul>
           <h3>Mais informações</h3>

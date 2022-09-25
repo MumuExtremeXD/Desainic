@@ -135,32 +135,48 @@ function Home() {
           <h4>Plano D-Plus</h4>
           <WrapperVantagens>
             <ul>
-              <li>Desconto de 10% em todos os serviços</li>
-              <li>Prioridade nos trabalhos</li>
               <li>
-                Divulgação gratuita em nossas redes sociais (1 Publicação + 1
-                Stories por mês)
+                <strong>DESCONTO</strong> de 10% em todos os serviços
               </li>
-              <li>Auxílio na melhoria do conteudo</li>
+              <li>
+                <strong>PRIORIDADE</strong> nos trabalhos
+              </li>
+              <li>
+                <strong>DIVULGAÇÃO GRATUITA</strong>
+                em nossas redes sociais (1 Publicação + 1 Stories por mês)
+              </li>
+              <li>
+                <strong>AUXÍLIO</strong> na melhoria do conteudo
+              </li>
               <li>Planilha organizacional de publicações</li>
-              <li>4 Alterações sem cobrar</li>
+              <li>
+                <strong>4 ALTERAÇÕES</strong> sem cobrar
+              </li>
+              <li>
+                Comunidade <strong>EXCLUSIVA</strong> para membros
+              </li>
             </ul>
 
-            <p>Teste</p>
+            <ContantImg>
+              <img alt="Fundo" src={Imgfundo2}></img>
+            </ContantImg>
           </WrapperVantagens>
 
           <Link to="/Plan">Saiba mais →</Link>
 
           <h5>Além disso, você contribui para criação de um mundo melhor!</h5>
           <p>
-            A cada plano fechado, será doado o valor de R$5,00 por mês para
-            instituições de caridade.
+            A cada plano fechado, será <strong>doado</strong> o valor de
+            <strong>R$5,00</strong> por mês para instituições de caridade.
           </p>
         </WrapperDplus>
       </WrapperPlan>
 
       <WrapperCommunity>
-        <p>Um plano que cabe no seu bolso, repleto de recursos poderosos.</p>
+        <p>
+          Saia na frente dos concorrentes em um mercado cada vez mais
+          competitivo.
+        </p>
 
         <p>
           Tudo o que você precisa para dominar as mídias sociais, fortalecido

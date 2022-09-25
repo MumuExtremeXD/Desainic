@@ -25,6 +25,10 @@ export const Section = styled.div`
 
   position: relative;
 
+  @media (max-width: 645px) {
+    font-size: 4.6rem;
+  }
+
   > h2 {
     font-size: 7.8rem;
 
@@ -42,146 +46,16 @@ export const Section = styled.div`
   }
 `;
 
-export const SearchSection = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  flex-wrap: wrap;
-
-  width: 100%;
-  height: 240px;
-
-  margin: 0 auto;
-  top: 0;
-
-  background: var(--third);
-
-  .Headline {
-    max-width: 1440px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    flex-direction: column;
-
-    position: absolute;
-    text-align: center;
-    margin: 0 auto;
-
-    user-select: none;
-
-    text-shadow: -3px 2px 4px rgba(0, 0, 0, 0.16);
-
-    > h2 {
-      font-size: 2.5rem;
-      font-weight: 800;
-      color: #fff;
-    }
-
-    > p {
-      font-size: 1.2rem;
-      color: #fff;
-    }
-
-    @media (max-width: 768px) {
-      > h2 {
-        font-size: 1.9rem;
-      }
-
-      > p {
-        font-size: 1rem;
-        color: #fff;
-      }
-    }
-
-    @media (max-width: 425px) {
-      > h2 {
-        font-size: 1.8rem;
-        padding: 60px 10px 40px 10px;
-      }
-
-      > p {
-        display: none;
-      }
-    }
-  }
-
-  > div {
-    margin: 0 auto;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    font-size: 100%;
-
-    z-index: 4;
-
-    max-width: 650px;
-    width: 100%;
-    min-width: 290px;
-
-    display: block;
-    padding: 0px 20px;
-
-    @media (max-width: 425px) {
-      padding: 0px 0px;
-      max-width: 100%;
-    }
-
-    > section {
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-
-      width: 100%;
-      height: 64px;
-
-      border-radius: 8px;
-      background: #fff;
-
-      margin-top: 255px;
-      box-shadow: 0px 8px 20px rgb(0 0 0 / 6%);
-
-      @media (max-width: 768px) {
-        margin-top: 250px;
-      }
-
-      @media (max-width: 425px) {
-        border-radius: 0px;
-        margin-top: 210px;
-      }
-
-      > label > svg {
-        margin-left: 25px;
-        outline: none;
-        font-size: 25px;
-        cursor: pointer;
-        fill: var(--third);
-      }
-
-      > input {
-        outline: none;
-
-        width: 100%;
-        height: 55px;
-        padding: 0px 15px 0px 15px;
-
-        border: none;
-
-        cursor: text;
-
-        line-height: 28px;
-        font-size: 17px;
-        font-weight: 400;
-      }
-    }
-  }
-`;
-
 export const CardService = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   margin: 20px 0 0 0;
-  padding: 5px 0px;
+  padding: 5px 20px;
   max-width: 1440px;
+  width: 100%;
 
   @media (max-width: 425px) {
     margin: 0;
@@ -189,48 +63,155 @@ export const CardService = styled.div`
 `;
 
 export const ServiceImg = styled.div`
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: auto;
-  grid-column-gap: 15px;
-  grid-row-gap: 0px;
+  display: flex;
+  max-width: 1180px;
+
+  gap: 50px;
+
+  justify-content: center;
 
   @media (max-width: 425px) {
-    grid-column-gap: 0px;
-    grid-row-gap: 25px;
-
-    display: flex;
+    gap: 0px;
+    margin-top: 20px;
     flex-direction: column;
+  }
 
-    > .Img1,
-    > .Img2 {
-      grid-area: unset;
+  > div {
+    width: 100%;
+    max-width: 950px;
 
-      > img {
-        padding: 0px 15px 0px 15px;
+    @media (max-width: 425px) {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    > img {
+      cursor: pointer;
+      width: 100%;
+      max-width: 680px;
+      object-fit: cover;
+    }
+
+    > h1 {
+      color: #333c43;
+      font-size: 36px;
+
+      @media (max-width: 650px) {
+        font-size: 30px;
+      }
+
+      @media (max-width: 425px) {
+        max-width: 100%;
         width: 100%;
-        min-width: 320px;
+        margin: -20px 0px 0px 0px;
       }
     }
-  }
 
-  > .Img1 {
-    grid-area: 1 / 1 / 4 / 4;
-
-    > img {
-      cursor: pointer;
-      width: 100%;
-      max-width: 450px;
+    > h3 {
+      color: #333c43;
+      font-size: 14px;
     }
-  }
 
-  > .Img2 {
-    grid-area: 1 / 4 / 4 / 7;
-
-    > img {
-      cursor: pointer;
-      width: 100%;
+    > p {
+      min-width: 250px;
       max-width: 450px;
+
+      @media (max-width: 650px) {
+        margin-top: 15px;
+        max-width: 100%;
+        font-size: 18px;
+      }
+    }
+
+    > .Text1 {
+      margin-top: 20px;
+      font-size: 10px;
+      min-width: 250px;
+      max-width: 450px;
+
+      @media (max-width: 650px) {
+        margin-top: 10px;
+        font-size: 15px;
+      }
+    }
+
+    > .TextPrice {
+      margin-bottom: 25px;
+      font-size: 32px;
+
+      font-weight: bold;
+      color: #008ffc;
+
+      min-width: 250px;
+      max-width: 450px;
+
+      @media (max-width: 650px) {
+        font-size: 35px;
+        margin-bottom: 0px;
+        line-height: 20px;
+      }
+
+      > label {
+        font-size: 10px;
+
+        font-weight: 400;
+        color: #333c43;
+
+        @media (max-width: 650px) {
+          font-size: 13px;
+        }
+      }
+    }
+
+    > div {
+      @media (max-width: 425px) {
+        margin: -30px 0px 0px 0px;
+      }
+
+      a {
+        border-radius: 46px;
+        padding: 16px 38px;
+
+        font-size: 14px;
+        background-color: var(--primary);
+
+        color: white;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+        @media (max-width: 650px) {
+          font-size: 20px;
+        }
+
+        @media (max-width: 350px) {
+          font-size: 14px;
+        }
+      }
+    }
+
+    > .Text2 {
+      margin-top: 45px;
+      font-size: 13px;
+      min-width: 250px;
+      max-width: 450px;
+
+      @media (max-width: 650px) {
+        max-width: 100%;
+        margin-top: 15px;
+        font-size: 14px;
+      }
+    }
+
+    > .Text3 {
+      margin-top: 15px;
+      font-size: 13px;
+      min-width: 250px;
+      max-width: 450px;
+
+      @media (max-width: 650px) {
+        max-width: 100%;
+        margin-top: 15px;
+        font-size: 14px;
+      }
     }
   }
 `;
@@ -238,18 +219,24 @@ export const ServiceImg = styled.div`
 export const ServiceInfo = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
 
-  padding: 0px 20px 0px 20px;
+  > h2 {
+    margin-top: 35px;
+    font-size: 32px;
+    min-width: 250px;
+    max-width: 450px;
+
+    @media (max-width: 650px) {
+      font-size: 22px;
+    }
+  }
 
   > p {
-    max-width: 900px;
-    margin: 10px auto 30px;
+    max-width: 850px;
+    margin: 10px 0 30px;
 
     padding: 1px 0px;
-    font-size: 24px;
-
-    line-height: 45px;
+    font-size: 16px;
 
     text-align: justify;
     color: #555355;
@@ -257,19 +244,6 @@ export const ServiceInfo = styled.div`
 
   @media (max-width: 425px) {
     padding: 0;
-
-    > p {
-      max-width: 900px;
-      margin: 30px auto;
-
-      padding: 0px 15px 0px 15px;
-
-      font-size: 1.2em;
-      line-height: 45px;
-
-      text-align: justify;
-      color: #555355;
-    }
   }
 `;
 
@@ -325,4 +299,180 @@ export const BackUp = styled.div`
       opacity: 1;
     }
   }
+`;
+
+export const WrapperDplus = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(122, 102, 240, 0.2);
+  border-radius: 20px;
+
+  max-width: 1180px;
+  width: 100%;
+
+  margin-bottom: 80px;
+
+  padding: 40px 0px 40px 0px;
+
+  @media (max-width: 425px) {
+    padding: 40px 10px 0px 10px;
+  }
+
+  > h4 {
+    color: #333c43;
+    max-width: 940px;
+    font-weight: 800;
+    font-size: 40px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+
+    @media (max-width: 650px) {
+      padding: 0 10px;
+      font-size: 40px;
+    }
+
+    @media (max-width: 425px) {
+      font-size: 34px;
+    }
+  }
+
+  > h5 {
+    color: #333c43;
+    max-width: 680px;
+    font-weight: 800;
+    font-size: 30px;
+
+    padding: 0 15px;
+    margin-bottom: 20px;
+
+    text-align: center;
+
+    @media (max-width: 650px) {
+      font-size: 25px;
+    }
+
+    @media (max-width: 425px) {
+      font-size: 20px;
+    }
+  }
+
+  > a {
+    text-align: center;
+    max-width: 240px;
+    width: 100%;
+
+    font-weight: 500;
+    border-radius: 44px;
+    font-size: 22px;
+
+    padding: 25px;
+    background-color: #fff;
+    margin-bottom: 35px;
+
+    transition: all 0.3s;
+    color: #7a66f0;
+
+    &:hover {
+      background-color: #7a66f0;
+      color: #fff;
+    }
+  }
+
+  > p {
+    max-width: 700px;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 0 15px;
+    color: #444;
+
+    text-align: center;
+  }
+`;
+
+export const WrapperVantagens = styled.div`
+  display: flex;
+  width: 100%;
+
+  padding: 40px 0px 40px 80px;
+
+  @media (max-width: 768px) {
+    padding: 40px 30px 0px 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (max-width: 425px) {
+    padding: 0px;
+  }
+
+  > ul {
+    text-align: left;
+    max-width: 440px;
+
+    @media (max-width: 425px) {
+      padding: 0px 20px 0px 20px;
+    }
+
+    > li {
+      font-size: 20px;
+      margin-bottom: 10px;
+
+      @media (max-width: 425px) {
+        font-size: 16px;
+      }
+    }
+  }
+
+  > div > img {
+    @media (max-width: 768px) {
+      margin-top: 30px;
+    }
+  }
+`;
+
+export const ContantImg = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  > img {
+    max-width: 1240px;
+    width: 100%;
+  }
+
+  margin-bottom: 40px;
+`;
+
+export const UlProduct = styled.ul`
+  list-style: none;
+
+  margin-bottom: 40px;
+
+  > li {
+    margin-bottom: 13px;
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+
+    color: #888388;
+
+    > i {
+      font-size: 25px;
+      color: var(--third);
+    }
+  }
+`;
+
+export const Divider = styled.div`
+  border-top-color: rgb(221, 221, 221);
+  border-top-width: 1px !important;
+  border-top-style: solid !important;
+
+  margin: 30px 0px;
 `;

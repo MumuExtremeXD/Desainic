@@ -120,7 +120,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href={`https://api.whatsapp.com/send?phone=5515996159898&text=Oi`}
+                  href={`https://api.whatsapp.com/send?phone=5515996918496&text=Oi`}
                   target="_blank"
                   rel="noreferrer"
                 >

@@ -36,7 +36,7 @@ const Terms = () => {
       <Container>
         <LogoBox>
           <Link to={"../"}>
-            <img src={Logo} alt="Qually Grama - Logo" />
+            <img src={Logo} alt="Desainic - Logo" />
           </Link>
         </LogoBox>
 
@@ -45,41 +45,41 @@ const Terms = () => {
           <p>Tatuí, 30 de Agosto de 2021</p>
           <p>
             A Política de Privacidade a seguir tem como fito objetivar o
-            compromisso da Qually Grama, pessoa jurídica de direito privado,
-            inscrita no CNPJ sob o nº 03.000.032/0001-85, com sede na Sitio Bela
-            Vista, s/n, Pederneiras, Tatuí/SP, CEP 18270-999, demonstrando zelo
-            com a privacidade e a proteção dos dados pessoais coletados de seus
+            compromisso da Desainic, pessoa física Matheus Souza Lima de direito
+            privado, portador do CPF sob o nº 411.630.438-77, com sede na Rua
+            José Domingos Fogaça, Tatuí/SP, CEP 18274-839, demonstrando zelo com
+            a privacidade e a proteção dos dados pessoais coletados de seus
             USUÁRIOS, delimitando as regras sobre a coleta, registro,
             armazenamento, uso, compartilhamento, enriquecimento e eliminação
             dos dados coletados dentro do escopo dos serviços e funcionalidades
-            no site da Qually Grama, de acordo com as leis em atual contexto.
+            no site da Desainic, de acordo com as leis em atual contexto.
           </p>
           <p>
-            Para a utilização do presente site da Qually Grama, e utilização de
-            seus recursos, o USUÁRIO declara ser maior de 18 (dezoito) anos e
-            ter feito a leitura completa e focada das regras deste documento,
+            Para a utilização do presente site da Desainic, e utilização de seus
+            recursos, o USUÁRIO declara ser maior de 18 (dezoito) anos e ter
+            feito a leitura completa e focada das regras deste documento,
             estando plenamente ciente, demonstrando assim sua livre e expressa
             concordância com os termos aqui estabelecidos.
           </p>
           <p>
-            A Política de Privacidade se aplica a todos domínios da Qually Grama
-            : os produtos, serviços, sites e hotsites oferecidos e mantidos.
+            A Política de Privacidade se aplica a todos domínios da Desainic :
+            os produtos, serviços, sites e hotsites oferecidos e mantidos.
             Aplica-se também às suas afiliadas, subsidiárias e/ou empresas
             ligadas.
           </p>
           <p>
             Existindo possibilidade de violação à proteção de dados dos
-            titulares relacionados ao USUÁRIO, deverão ser passadas a Qually
-            Grama, através dos meios de comunicação disponíveis no site da
-            Qually Grama. Colocamo-nos à disposição para tomar as providências
-            necessárias para evitar tais violações ou quando impossível
-            impedi-las, mitigar os riscos inerentes ao caso em questão.
+            titulares relacionados ao USUÁRIO, deverão ser passadas a Desainic,
+            através dos meios de comunicação disponíveis no site da Desainic.
+            Colocamo-nos à disposição para tomar as providências necessárias
+            para evitar tais violações ou quando impossível impedi-las, mitigar
+            os riscos inerentes ao caso em questão.
           </p>
           <p>
             Supondo que o USUÁRIO não se enquadre na descrição acima e/ou não
             concorde, ainda que em parte, com os termos e condições contidos
             nesta Política de Privacidade, não deverá acessar e/ou utilizar
-            quaisquer serviços oferecidos pela Qually Grama.
+            quaisquer serviços oferecidos pela Desainic.
           </p>
           <h2>1. DADOS COLETADOS, FORMA E FINALIDADE DA COLETA</h2>
           <p>
@@ -92,7 +92,7 @@ const Terms = () => {
           </p>
           <p>
             1.2 Os dados pessoais do usuário e do visitante coletados e
-            armazenados pela plataforma da Qually Grama tem por finalidade:
+            armazenados pela plataforma da Desainic tem por finalidade:
           </p>
 
           <ul>
@@ -160,11 +160,10 @@ const Terms = () => {
 
           <p>
             1.7 Se, em algum momento, o usuário se sentir incomodado e não
-            desejar mais receber quaisquer informativos publicitários da Qually
-            Grama, poderá, a qualquer momento, nos contatar por meio do
-            telefone:(15) 3205-9300, manifestando a sua oposição. Os dados
-            coletados e as atividades registradas também poderão ser
-            compartilhados:
+            desejar mais receber quaisquer informativos publicitários da
+            Desainic, poderá, a qualquer momento, nos contatar por meio do
+            telefone:, manifestando a sua oposição. Os dados coletados e as
+            atividades registradas também poderão ser compartilhados:
           </p>
 
           <ul>
@@ -183,14 +182,14 @@ const Terms = () => {
             1.8 Internamente, os dados coletados são acessados somente por
             profissionais devidamente autorizados, respeitando os princípios de
             proporcionalidade, necessidade e relevância para os objetivos do
-            site da Qually Grama, além do compromisso de confidencialidade e
+            site da Desainic, além do compromisso de confidencialidade e
             preservação da privacidade nos termos desta Política de Privacidade.
           </p>
 
           <h2>2. ARMAZENAMENTO DE DADOS</h2>
 
           <p>
-            2.1 A Qually Grama armazenará as informações coletadas em servidores
+            2.1 A Desainic armazenará as informações coletadas em servidores
             próprios ou por ela contratados, físicos ou virtuais.
           </p>
 
@@ -198,29 +197,29 @@ const Terms = () => {
             2.2 As informações do USUÁRIO serão armazenadas em nossos servidores
             e sempre que houver necessidade de identificação ou fornecimento de
             informações, a transmissão de dados entre computador do USUÁRIO e o
-            site da Qually Grama será realizada através de uma conexão segura.
+            site da Desainic será realizada através de uma conexão segura.
           </p>
 
           <p>
-            2.3 A Qually Grama utiliza os meios razoáveis de mercado e
-            legalmente requeridos para preservar a privacidade dos dados
-            coletados. Desta forma, adota por exemplo as seguintes precauções:
+            2.3 A Desainic utiliza os meios razoáveis de mercado e legalmente
+            requeridos para preservar a privacidade dos dados coletados. Desta
+            forma, adota por exemplo as seguintes precauções:
           </p>
 
           <ul>
             <li>
-              i. Quando necessário a Qually Grama utiliza os métodos padrão e de
+              i. Quando necessário a Desainic utiliza os métodos padrão e de
               mercado para criptografar e anonimizar os dados coletados;
             </li>
             <li>
-              ii. A Qually Grama possui proteção contra acesso não autorizado a
-              seus sistemas;
+              ii. A Desainic possui proteção contra acesso não autorizado a seus
+              sistemas;
             </li>
 
             <li>
-              iii. A Qually Grama somente autoriza o acesso de pessoas
-              previamente estabelecidas ao local onde são armazenadas as
-              informações coletadas;
+              iii. A Desainic somente autoriza o acesso de pessoas previamente
+              estabelecidas ao local onde são armazenadas as informações
+              coletadas;
             </li>
             <li>
               iv. Aqueles que entram em contato com as informações se
@@ -231,8 +230,8 @@ const Terms = () => {
           </ul>
 
           <p>
-            2.4 A Qually Grama adota os melhores esforços, no sentido de
-            preservar a privacidade dos dados dos USUÁRIOS.
+            2.4 A Desainic adota os melhores esforços, no sentido de preservar a
+            privacidade dos dados dos USUÁRIOS.
           </p>
 
           <p>
@@ -251,7 +250,7 @@ const Terms = () => {
           <h2>3. COMPARTILHAMENTO DE DADOS</h2>
 
           <p>
-            3.1 A Qually Grama poderá divulgar os dados pessoais coletados de
+            3.1 A Desainic poderá divulgar os dados pessoais coletados de
             terceiros, especificando o indivíduo e sua finalidade de tratamento,
             nas seguintes situações e nos limites autorizados pela lei:
           </p>
@@ -262,7 +261,7 @@ const Terms = () => {
               desenvolvimento de serviços, segurança e gerenciamento de risco.
             </li>
             <li>
-              2. Para fins de entrega do serviço contratado com a Qually Grama.
+              2. Para fins de entrega do serviço contratado com a Desainic.
             </li>
 
             <li>
@@ -270,10 +269,9 @@ const Terms = () => {
               determinação de autoridade competente ou decisão judicial.
             </li>
             <li>
-              3.2 Em alguns casos a Qually Grama poderá divulgar os Dados
-              Pessoais coletados com o objetivo de cumprir a legislação
-              aplicável ou por meio de ordem ou intimação judicial ou
-              administrativa.
+              3.2 Em alguns casos a Desainic poderá divulgar os Dados Pessoais
+              coletados com o objetivo de cumprir a legislação aplicável ou por
+              meio de ordem ou intimação judicial ou administrativa.
             </li>
 
             <li>3.3 A divulgação legal poderá ser feita para:</li>
@@ -291,9 +289,9 @@ const Terms = () => {
           <h2>4. RETENÇÃO DE DADOS</h2>
 
           <p>
-            4.1 O USUÁRIO declara estar ciente de que o site da Qually Grama é
-            um ambiente criado para que as informações circulem de forma segura
-            em ambiente restrito e compartilhado com diversos outros agentes de
+            4.1 O USUÁRIO declara estar ciente de que o site da Desainic é um
+            ambiente criado para que as informações circulem de forma segura em
+            ambiente restrito e compartilhado com diversos outros agentes de
             tratamento (art. 5º, IX, LGPD), cujas regras devem ser respeitadas,
             bem assim as preferências de privacidade e proteção dos dados
             pessoais de titulares que trafeguem em seus respectivos sites,
@@ -303,10 +301,10 @@ const Terms = () => {
           </p>
 
           <p>
-            4.2 A Qually Grama irá reter informações dos Usuários/Titulares de
-            dados somente pelo período da finalidade para as quais aquelas
-            informações foram tratadas, incluindo a segurança do processamento,
-            com obrigações jurídicas e regulamentares (por exemplo, auditoria,
+            4.2 A Desainic irá reter informações dos Usuários/Titulares de dados
+            somente pelo período da finalidade para as quais aquelas informações
+            foram tratadas, incluindo a segurança do processamento, com
+            obrigações jurídicas e regulamentares (por exemplo, auditoria,
             contabilidade e termos de retenção estatutária), litígios quanto ao
             processamento, e para o estabelecimento, exercício ou defesa de
             ações judiciais.
@@ -315,13 +313,13 @@ const Terms = () => {
           <p>
             4.3 O titular dos dados poderá solicitar a retificação e/ou exclusão
             dos dados pessoais por meio de solicitação direta por meio do
-            telefone disponível na página da Qually Grama na internet (15)
-            3205-9300, manifestando a sua oposição.
+            telefone disponível na página da Desainic na internet (15)
+            99691-8493, manifestando a sua oposição.
           </p>
 
           <p>
             4.4 Caso o USUÁRIO retire seu consentimento para finalidades
-            fundamentais ao regular funcionamento do site da Qually Grama, os
+            fundamentais ao regular funcionamento do site da Desainic, os
             serviços e funcionalidades poderão ficar indisponíveis.
           </p>
 
@@ -329,8 +327,8 @@ const Terms = () => {
             4.5 Caso o USUÁRIO não conceda seu consentimento para as finalidades
             facultativas, relacionadas ao envio de informações de novidades,
             conteúdos, notícias e demais eventos relevantes para a manutenção do
-            relacionamento, os serviços e funcionalidades do site da Qually
-            Grama continuarão sendo disponibilizados regularmente.
+            relacionamento, os serviços e funcionalidades do site da Desainic
+            continuarão sendo disponibilizados regularmente.
           </p>
 
           <p>
@@ -351,9 +349,8 @@ const Terms = () => {
             atualizar seus dados pessoais e garante a veracidade das informações
             por ele disponibilizadas. O usuário tem direito de retirar o seu
             consentimento a qualquer tempo, para tanto deve entrar em contato
-            por correio enviado ao seguinte endereço: Rua Onze de Agosto, 182
-            Centro, Tatuí/SP, CEP 18270-001, ou através dos telefones (15)
-            3205-9300 | (15) 99615-9898.
+            por correio enviado ao seguinte endereço: Rua José Domingos Fogaça,
+            53, Tatuí/SP, CEP 18274-839, ou através do telefone (15) 99691-8493.
           </p>
 
           <h2>6. CONSENTIMENTO</h2>
@@ -382,7 +379,7 @@ const Terms = () => {
             a qualquer momento, conforme a finalidade ou necessidade, tal qual
             para adequação e conformidade legal de disposição de lei ou norma
             que tenha força jurídica equivalente, cabendo ao USUÁRIOS
-            verificá-la sempre que efetuar o acesso no site da Qually Grama.
+            verificá-la sempre que efetuar o acesso no site da Desainic.
           </p>
 
           <p>
@@ -394,8 +391,7 @@ const Terms = () => {
           <p>
             6.6 Em caso de qualquer dúvida com relação às disposições constantes
             desta Política de Privacidade, o USUÁRIO poderá entrar em contato
-            por meio dos telefones (15) 3205-9300 | (15) 99615-9898,
-            manifestando a sua oposição.
+            por meio dos telefones (15) 99691-8493, manifestando a sua oposição.
           </p>
 
           <p>
@@ -444,7 +440,7 @@ const Terms = () => {
           </p>
 
           <p>
-            Data da modificação: <strong>30/08/2021</strong>
+            Data da modificação: <strong>26/09/2022</strong>
           </p>
         </TextBox>
 

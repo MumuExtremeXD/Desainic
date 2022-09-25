@@ -30,7 +30,7 @@ function Header() {
 
       <Content menu={open}>
         <div className="logo">
-          <Link to={"../#"}>
+          <Link to={"../Servicos"}>
             <i>
               <IoIosArrowDropleftCircle />
             </i>

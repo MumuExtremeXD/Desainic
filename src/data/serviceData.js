@@ -9,10 +9,11 @@ export default [
     price: "14,00m²",
 
     img: `${ImgEsmeralda1}`,
-    description: "De solos.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus cumque a ullam. Aperiam earum magni mollitia quae itaque culpa magnam aliquid! Autem consectetur in quia, suscipit dolores quasi nam earum!",
 
     justificativa: "Sua empresa mais digitalizada",
-    medida: "",
+    medida: "1 un",
 
     dica1: "Jardins",
     dica2: "Residências",
@@ -32,7 +33,7 @@ export default [
     description: "De solos.",
 
     justificativa: "Sua empresa mais digitalizada",
-    medida: "",
+    medida: "1 un",
 
     dica1: "Jardins",
     dica2: "Residências",
@@ -52,7 +53,7 @@ export default [
     description: "De solos.",
 
     justificativa: "Sua empresa mais digitalizada",
-    medida: "",
+    medida: "1 un",
 
     dica1: "Jardins",
     dica2: "Residências",
@@ -72,7 +73,7 @@ export default [
     description: "De solos.",
 
     justificativa: "Sua empresa mais digitalizada",
-    medida: "",
+    medida: "1 un",
 
     dica1: "Jardins",
     dica2: "Residências",
@@ -92,7 +93,7 @@ export default [
     description: "De solos.",
 
     justificativa: "Sua empresa mais digitalizada",
-    medida: "",
+    medida: "1 un",
 
     dica1: "Jardins",
     dica2: "Residências",
@@ -112,7 +113,7 @@ export default [
     description: "De solos.",
 
     justificativa: "Sua empresa mais digitalizada",
-    medida: "",
+    medida: "1 un",
 
     dica1: "Jardins",
     dica2: "Residências",
@@ -132,7 +133,7 @@ export default [
     description: "De solos.",
 
     justificativa: "Sua empresa mais digitalizada",
-    medida: "",
+    medida: "1 un",
 
     dica1: "Jardins",
     dica2: "Residências",
@@ -152,7 +153,7 @@ export default [
     description: "De solos.",
 
     justificativa: "Sua empresa mais digitalizada",
-    medida: "",
+    medida: "1 un",
 
     dica1: "Jardins",
     dica2: "Residências",
@@ -172,7 +173,7 @@ export default [
     description: "De solos.",
 
     justificativa: "Sua empresa mais digitalizada",
-    medida: "",
+    medida: "1 un",
 
     dica1: "Jardins",
     dica2: "Residências",
