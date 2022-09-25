@@ -60,11 +60,13 @@ export const EffectOverlay = styled.div`
 export const Content = styled.div`
   max-width: 1440px;
   margin: 0 auto;
-  padding: 10px 35px 5px;
+  padding: 15px 15px 15px 5px;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  max-width: 1020px;
 
   @media (max-width: 800px) {
     padding: 15px 15px 15px 5px;

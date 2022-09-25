@@ -13,6 +13,9 @@ import {
   SearchSection,
   InputForm,
   NotFoundContainer,
+  WrapperDplus,
+  WrapperVantagens,
+  WrapperCommunity,
 } from "./styles";
 
 import Header from "../../components/Headers/Header";
@@ -21,6 +24,7 @@ import { BiSearchAlt } from "react-icons/bi";
 import data from "../../data/serviceData";
 
 import Imgfundo from "../../images/fundoXD.jpg";
+import Imgfundo2 from "../../images/fundoXD2.jpg";
 import Footer from "../../components/Footer";
 
 const Card = React.lazy(() => import("../../components/CardServices"));
@@ -120,8 +124,55 @@ function Home() {
       </WrapperServices>
 
       <WrapperPlan>
-        <p>D-PLUS</p>
+        <h3>Um plano que cabe no seu bolso, repleto de recursos poderosos.</h3>
+
+        <p>
+          Tudo o que você precisa para dominar as mídias sociais, fortalecido
+          com o melhor suporte ao cliente.
+        </p>
+
+        <WrapperDplus>
+          <h4>Plano D-Plus</h4>
+          <WrapperVantagens>
+            <ul>
+              <li>Desconto de 10% em todos os serviços</li>
+              <li>Prioridade nos trabalhos</li>
+              <li>
+                Divulgação gratuita em nossas redes sociais (1 Publicação + 1
+                Stories por mês)
+              </li>
+              <li>Auxílio na melhoria do conteudo</li>
+              <li>Planilha organizacional de publicações</li>
+              <li>4 Alterações sem cobrar</li>
+            </ul>
+
+            <p>Teste</p>
+          </WrapperVantagens>
+
+          <Link to="/Plan">Saiba mais →</Link>
+
+          <h5>Além disso, você contribui para criação de um mundo melhor!</h5>
+          <p>
+            A cada plano fechado, será doado o valor de R$5,00 por mês para
+            instituições de caridade.
+          </p>
+        </WrapperDplus>
       </WrapperPlan>
+
+      <WrapperCommunity>
+        <p>Um plano que cabe no seu bolso, repleto de recursos poderosos.</p>
+
+        <p>
+          Tudo o que você precisa para dominar as mídias sociais, fortalecido
+          com o melhor suporte ao cliente.
+        </p>
+
+        <ContantImg>
+          <img alt="Fundo" src={Imgfundo2}></img>
+        </ContantImg>
+
+        <Link to="/Plan">Saiba mais →</Link>
+      </WrapperCommunity>
 
       <Footer />
     </Container>

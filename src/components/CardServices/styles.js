@@ -19,10 +19,10 @@ export const Card = styled.div`
   }
 
   > div > h3 {
-    font-size: 1em;
+    font-size: 25px;
 
     font-weight: 360;
-    margin: 0px 0px 10px;
+    margin: 0px;
     line-height: auto;
 
     max-width: 15ch;
@@ -30,19 +30,32 @@ export const Card = styled.div`
     text-overflow: ellipsis;
     white-space: nowrap;
 
+    @media (max-width: 600px) {
+      font-size: 20px;
+    }
+
     @media (max-width: 400px) {
       max-width: 15ch;
       overflow: initial;
       text-overflow: initial;
       white-space: normal;
-      font-size: 1em;
+
+      font-size: 16px;
     }
   }
 
   > div > p {
-    font-size: 1.2em;
+    font-size: 25px;
     font-weight: 560;
     margin-bottom: 1px;
+
+    @media (max-width: 600px) {
+      font-size: 20px;
+    }
+
+    @media (max-width: 600px) {
+      font-size: 18px;
+    }
   }
 
   > a {

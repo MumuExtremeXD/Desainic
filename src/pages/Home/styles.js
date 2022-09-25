@@ -27,24 +27,23 @@ export const ContainerPrincipal = styled.div`
 
   width: 100%;
   text-align: center;
-  margin-top: 35px;
+
+  margin: 35px auto 0px;
 
   @media (max-width: 768px) {
+    margin: 65px auto 0px;
     padding: 15px;
-  }
-
-  @media (max-width: 320px) {
-    margin: 15% auto 0px;
   }
 
   overflow: hidden;
 
   > h1 {
+    color: #333c43;
     max-width: 740px;
     font-size: 64px;
 
     @media (max-width: 650px) {
-      font-size: 38px;
+      font-size: 42px;
     }
 
     @media (max-width: 425px) {
@@ -55,7 +54,8 @@ export const ContainerPrincipal = styled.div`
   > p {
     max-width: 740px;
     @media (max-width: 650px) {
-      font-size: 14px;
+      margin-top: 15px;
+      font-size: 18px;
     }
   }
 
@@ -208,7 +208,7 @@ export const WrapperServices = styled.div`
   }
 
   > h2 {
-    color: #000;
+    color: #333c43;
     font-size: 64px;
     font-weight: 700;
     text-align: center;
@@ -438,7 +438,7 @@ export const WrapperChroma = styled.div`
 `;
 
 export const WrapperPlan = styled.div`
-  margin-top: 60px;
+  margin-top: 30px;
   margin-bottom: 80px;
   width: 100%;
   max-width: 1440px;
@@ -454,8 +454,159 @@ export const WrapperPlan = styled.div`
   flex-direction: column;
   text-align: center;
 
-  > p {
-    font-size: 1.15rem;
+  > h3 {
+    color: #333c43;
+    max-width: 940px;
+    font-weight: 700;
+    font-size: 50px;
     padding: 0 15px;
+    margin-bottom: 20px;
+  }
+
+  > p {
+    max-width: 760px;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0 15px;
+    margin-bottom: 70px;
+    color: #444;
+  }
+`;
+
+export const WrapperDplus = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(122, 102, 240, 0.2);
+  border-radius: 20px;
+
+  max-width: 980px;
+  width: 100%;
+
+  padding: 40px 0px 40px 0px;
+
+  > h4 {
+    color: #333c43;
+    max-width: 940px;
+    font-weight: 800;
+    font-size: 40px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+  }
+
+  > h5 {
+    color: #333c43;
+    max-width: 680px;
+    font-weight: 800;
+    font-size: 30px;
+
+    padding: 0 15px;
+    margin-bottom: 20px;
+  }
+
+  > a {
+    max-width: 240px;
+    width: 100%;
+
+    font-weight: 500;
+    border-radius: 44px;
+    font-size: 22px;
+
+    padding: 25px;
+    background-color: #fff;
+    margin-bottom: 35px;
+
+    transition: all 0.3s;
+    color: #7a66f0;
+
+    &:hover {
+      background-color: #7a66f0;
+      color: #fff;
+    }
+  }
+
+  > p {
+    max-width: 760px;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0 15px;
+    color: #444;
+  }
+`;
+
+export const WrapperVantagens = styled.div`
+  display: flex;
+  width: 100%;
+
+  padding: 40px 0px 40px 80px;
+
+  > ul {
+    text-align: left;
+
+    max-width: 440px;
+
+    > li {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  }
+`;
+
+export const WrapperCommunity = styled.div`
+  margin-top: 30px;
+  margin-bottom: 80px;
+  width: 100%;
+  max-width: 1440px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    padding: 15px;
+  }
+
+  flex-direction: column;
+  text-align: center;
+
+  > p:first-child {
+    color: #333c43;
+    max-width: 940px;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+  }
+
+  > p {
+    max-width: 760px;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0 15px;
+    margin-bottom: 70px;
+    color: #444;
+  }
+
+  > a {
+    max-width: 240px;
+    width: 100%;
+
+    font-weight: 500;
+    border-radius: 44px;
+    font-size: 22px;
+
+    padding: 25px;
+    background-color: var(--primary);
+
+    margin-bottom: 35px;
+
+    transition: all 0.3s;
+    color: #fff;
+
+    &:hover {
+      background-color: #7a66f0;
+    }
   }
 `;

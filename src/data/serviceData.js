@@ -25,7 +25,7 @@ export default [
 
   {
     idService: 2,
-    nameService: "Cartão Virtual 2",
+    nameService: "Cartão de visita",
     price: "14,00m²",
 
     img: `${ImgEsmeralda1}`,
@@ -45,7 +45,7 @@ export default [
 
   {
     idService: 3,
-    nameService: "Cartão Virtual 3 X",
+    nameService: "Carrossel",
     price: "14,00m²",
 
     img: `${ImgEsmeralda1}`,
@@ -65,7 +65,7 @@ export default [
 
   {
     idService: 4,
-    nameService: "Cartão Virtual",
+    nameService: "Social media",
     price: "14,00m²",
 
     img: `${ImgEsmeralda1}`,
@@ -85,7 +85,7 @@ export default [
 
   {
     idService: 5,
-    nameService: "Cartão Virtual 2",
+    nameService: "Livro",
     price: "14,00m²",
 
     img: `${ImgEsmeralda1}`,
@@ -105,7 +105,7 @@ export default [
 
   {
     idService: 6,
-    nameService: "Cartão Virtual 3 X",
+    nameService: "E-book",
     price: "14,00m²",
 
     img: `${ImgEsmeralda1}`,
@@ -125,7 +125,7 @@ export default [
 
   {
     idService: 7,
-    nameService: "Cartão Virtual",
+    nameService: "Publicações",
     price: "14,00m²",
 
     img: `${ImgEsmeralda1}`,
@@ -145,7 +145,7 @@ export default [
 
   {
     idService: 8,
-    nameService: "Cartão Virtual 2",
+    nameService: "Stories",
     price: "14,00m²",
 
     img: `${ImgEsmeralda1}`,
@@ -165,7 +165,7 @@ export default [
 
   {
     idService: 9,
-    nameService: "Cartão Virtual 3 X",
+    nameService: "Edição de Slides",
     price: "14,00m²",
 
     img: `${ImgEsmeralda1}`,
