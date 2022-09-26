@@ -77,6 +77,7 @@ export const ContainerPrincipal = styled.div`
       background-color: var(--primary);
 
       color: white;
+      border: 1px solid rgba(128, 128, 128, 0.1);
       box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 
       @media (max-width: 650px) {
@@ -135,13 +136,14 @@ export const SearchSection = styled.div`
 
       margin-top: 25px;
       box-shadow: 0px 8px 20px rgb(0 0 0 / 6%);
+      border: 1px solid rgba(128, 128, 128, 0.1);
 
       > label > svg {
         margin-left: 25px;
         outline: none;
         font-size: 25px;
         cursor: pointer;
-        fill: var(--third);
+        fill: var(--primary);
       }
     }
   }

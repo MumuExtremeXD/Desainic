@@ -84,7 +84,8 @@ export const LogoBox = styled.div`
   > a {
     max-width: 840px;
     > img {
-      max-width: 440px;
+      object-fit: cover;
+      max-width: 450px;
       transition: all ease 0.3s;
       width: 100%;
     }

@@ -53,9 +53,9 @@ html {
   :root {
     --primary:#7f2ff2;
     --secondary:#FFF;
-    --third:#e8315c;
+    --third:#7f2ff2;
     --fourth:#00a2ff;
-    --five:#4f2d0f;
+    --five:#e8315c;
     --blue: #008ffc;
     --black:#222222;
     --gray:#444;

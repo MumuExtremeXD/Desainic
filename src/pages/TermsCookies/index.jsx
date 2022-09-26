@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import Logo from "../../images/logo.webp";
+import Logo from "../../images/LogoAlta.png";
 
 import Footer from "../../components/Footer";
 import { Container, LogoBox, TextBox, BackUp } from "./styles";

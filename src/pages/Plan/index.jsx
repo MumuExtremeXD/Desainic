@@ -30,7 +30,7 @@ function Plan() {
 
         <div>
           <a
-            href={`https://api.whatsapp.com/send?phone=5515996918496&text=Oi`}
+            href={`https://api.whatsapp.com/send?phone=5515996439461&text=Oi`}
             target="_blank"
             rel="noreferrer"
           >

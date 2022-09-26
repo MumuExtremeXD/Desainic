@@ -15,6 +15,8 @@ export const Nav = styled.div`
 
   transition: all 0.2s ease-in-out;
 
+  background-color: #fff;
+
   > div > div > i {
     color: #666366;
   }
@@ -22,7 +24,6 @@ export const Nav = styled.div`
   @media (min-width: 0px) {
     &.scrollMenu {
       background-color: white;
-      box-shadow: 0px 1px 10px -5px rgba(0, 0, 0, 0.33);
 
       > div > div > ul > li > a,
       > a:active,
@@ -87,7 +88,8 @@ export const Content = styled.div`
       margin-left: 15px;
       padding-top: 5px;
       width: 100%;
-      max-width: 120px;
+      max-width: 250px;
+      min-width: 135px;
 
       @media (min-width: 0px) {
         max-width: 45px;

@@ -120,7 +120,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href={`https://api.whatsapp.com/send?phone=5515996918496&text=Oi`}
+                  href={`https://api.whatsapp.com/send?phone=5515996439461&text=Oi`}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -131,7 +131,7 @@ function Footer() {
               <li>
                 <p>
                   Você pode nos ligar nesse número
-                  <a href="tel:+5501599691-8493"> (15) 99691-8493</a>
+                  <a href="tel:+550199643-9461"> (15) 99643-9461</a>
                 </p>
               </li>
             </ul>

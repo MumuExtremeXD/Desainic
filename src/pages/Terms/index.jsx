@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import Logo from "../../images/logo.webp";
+import Logo from "../../images/LogoAlta.png";
 
 import Footer from "../../components/Footer";
 import { Container, LogoBox, TextBox, BackUp } from "./styles";
@@ -314,7 +314,7 @@ const Terms = () => {
             4.3 O titular dos dados poderá solicitar a retificação e/ou exclusão
             dos dados pessoais por meio de solicitação direta por meio do
             telefone disponível na página da Desainic na internet (15)
-            99691-8493, manifestando a sua oposição.
+            99643-9461, manifestando a sua oposição.
           </p>
 
           <p>
@@ -350,7 +350,7 @@ const Terms = () => {
             por ele disponibilizadas. O usuário tem direito de retirar o seu
             consentimento a qualquer tempo, para tanto deve entrar em contato
             por correio enviado ao seguinte endereço: Rua José Domingos Fogaça,
-            53, Tatuí/SP, CEP 18274-839, ou através do telefone (15) 99691-8493.
+            53, Tatuí/SP, CEP 18274-839, ou através do telefone (15) 99643-9461.
           </p>
 
           <h2>6. CONSENTIMENTO</h2>
@@ -391,7 +391,7 @@ const Terms = () => {
           <p>
             6.6 Em caso de qualquer dúvida com relação às disposições constantes
             desta Política de Privacidade, o USUÁRIO poderá entrar em contato
-            por meio dos telefones (15) 99691-8493, manifestando a sua oposição.
+            por meio dos telefones (15) 99643-9461, manifestando a sua oposição.
           </p>
 
           <p>

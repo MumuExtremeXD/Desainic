@@ -46,7 +46,7 @@ export const SearchSection = styled.div`
   margin: 0 auto;
   top: 0;
 
-  background: var(--primary);
+  background: #fff;
 
   @media (min-width: 1441px) {
     background-attachment: scroll;
@@ -101,7 +101,7 @@ export const SearchSection = styled.div`
     > h2 {
       font-size: 2.5rem;
       font-weight: 800;
-      color: #fff;
+      color: var(--primary);
     }
 
     @media (max-width: 768px) {
@@ -161,6 +161,7 @@ export const SearchSection = styled.div`
       background: #fff;
 
       margin-top: 255px;
+      border: 1px solid rgba(128, 128, 128, 0.1);
       box-shadow: 0px 8px 20px rgb(0 0 0 / 6%);
 
       @media (max-width: 768px) {
