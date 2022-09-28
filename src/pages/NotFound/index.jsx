@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { Container, Wrapper } from "./styles";
 
-import Img404 from "../../images/404/404img.webp";
+import Img404 from "../../images/404/404.png";
 
 import Header from "../../components/Headers/Header";
 import Footer from "../../components/Footer";

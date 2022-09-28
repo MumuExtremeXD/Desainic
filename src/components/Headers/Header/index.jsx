@@ -14,7 +14,7 @@ import {
 import { CgMenuRight } from "react-icons/cg";
 import { IoMdCloseCircle } from "react-icons/io";
 
-import logo from "../../../images/logo.webp";
+import logo from "../../../images/logo.png";
 
 const scrollThreshold = 1;
 

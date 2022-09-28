@@ -124,28 +124,6 @@ export const Ul = styled.ul`
       width: 100%;
       display: flex;
       justify-content: flex-end;
-
-      > button {
-        max-width: 180px;
-        background: #7cb407;
-
-        outline: none;
-        border: none;
-
-        border-radius: 4px;
-        padding: 10px 0px;
-        width: 100%;
-
-        transition: all 0.2s ease;
-
-        outline: none;
-        border: none;
-        font-size: 22px;
-
-        color: white;
-        cursor: pointer;
-        font-weight: 500;
-      }
     }
 
     > a {
@@ -158,22 +136,6 @@ export const Ul = styled.ul`
 
       &:hover {
         color: var(--primary);
-      }
-    }
-    > button {
-      border: none;
-      font-weight: 500;
-
-      margin-left: 25px;
-      background: transparent;
-
-      font-size: 18px;
-      color: var(--secondary);
-
-      cursor: pointer;
-
-      &:hover {
-        color: var(--secondary);
       }
     }
   }
@@ -207,12 +169,6 @@ export const Ul = styled.ul`
     > a {
       font-size: 25px;
       color: var(--black);
-    }
-
-    > button {
-      background: transparent;
-      font-size: 22px;
-      color: var(--primary);
     }
   }
 

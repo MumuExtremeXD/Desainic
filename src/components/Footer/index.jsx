@@ -96,14 +96,22 @@ function Footer() {
             <h4>Nossos Parceiros</h4>
             <ul>
               <li>
-                <a href="XD" target="_blank" rel="noreferrer">
-                  XD1
+                <a
+                  href="https://www.asaas.com/r/fb/84a73b6c-554b-4f59-9850-d874d75cb430"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Asaas - Controle financeiro
                 </a>
               </li>
 
               <li>
-                <a href="XD" target="_blank" rel="noreferrer">
-                  XD2
+                <a
+                  href="https://www.ganhedevolta.com.br/ind/1030141"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Ganhe de volta - Cupons de Desconto
                 </a>
               </li>
             </ul>

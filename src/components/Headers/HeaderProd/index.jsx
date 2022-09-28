@@ -34,7 +34,7 @@ function Header() {
             <i>
               <IoIosArrowDropleftCircle />
             </i>
-            Variedades
+            Serviços
           </Link>
         </div>
 
@@ -46,29 +46,15 @@ function Header() {
           </div>
 
           <li>
-            <Link to={"../"}>Início</Link>
+            <Link to={"../Servicos"}>Serviços</Link>
           </li>
 
           <li>
-            <Link to={"../#"}>Gramas</Link>
+            <Link to={"../Comunidade"}>Comunidade</Link>
           </li>
 
           <li>
-            <Link to={"../dicas"}>Dicas</Link>
-          </li>
-
-          <li>
-            <Link to={"../sobre-nos"}>Sobre nós</Link>
-          </li>
-
-          <li>
-            <a
-              href={`https://api.whatsapp.com/send?phone=5515996159898&text=Olá!`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button type="button">Fale Conosco</button>
-            </a>
+            <Link to={"../D-plus"}>D-Plus</Link>
           </li>
         </Ul>
         <div className="icon" onClick={() => setOpen(!open)}>
