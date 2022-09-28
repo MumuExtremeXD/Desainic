@@ -46,6 +46,10 @@ function Header() {
           </div>
 
           <li>
+            <Link to={"../"}>Início</Link>
+          </li>
+
+          <li>
             <Link to={"../Servicos"}>Serviços</Link>
           </li>
 

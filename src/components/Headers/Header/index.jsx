@@ -56,19 +56,15 @@ function Header() {
           </li>
 
           <li>
-            <Link to={"../gramas"}>Gramas</Link>
+            <Link to={"../Servicos"}>Serviços</Link>
           </li>
 
           <li>
-            <Link to={"../quallystrato/7"}>Qually Strato</Link>
+            <Link to={"../Comunidade"}>Comunidade</Link>
           </li>
 
           <li>
-            <Link to={"../sobre-nos"}>Sobre nós</Link>
-          </li>
-
-          <li>
-            <Link to={"../ajuda"}>Ajuda</Link>
+            <Link to={"../D-plus"}>D-Plus</Link>
           </li>
 
           <li>
