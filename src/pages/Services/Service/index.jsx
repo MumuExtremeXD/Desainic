@@ -17,7 +17,7 @@ import {
   ServiceImg,
   ServiceInfo,
   BackUp,
-  ContantImg,
+  ContantImgDplus,
   WrapperDplus,
   WrapperVantagens,
   Divider,
@@ -28,7 +28,7 @@ import Header from "../../../components/Headers/HeaderProd";
 import Footer from "../../../components/Footer";
 
 import { TiArrowUpThick } from "react-icons/ti";
-import Imgfundo2 from "../../../images/fundoXD2.jpg";
+import ImgDplus from "../../../images/dplus.png";
 
 import ImgEnlarge from "../../../components/ImgEnlarge";
 import data from "../../../data/serviceData";
@@ -195,9 +195,9 @@ function Service() {
                       </li>
                     </ul>
 
-                    <ContantImg>
-                      <img alt="Fundo" src={Imgfundo2}></img>
-                    </ContantImg>
+                    <ContantImgDplus>
+                      <img alt="Plano D-Plus" src={ImgDplus}></img>
+                    </ContantImgDplus>
                   </WrapperVantagens>
 
                   <Link to="/Plan">Saiba mais →</Link>

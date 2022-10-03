@@ -9,6 +9,7 @@ import {
   Wrapper,
   WrapperPlan,
   ContantImg,
+  ContantImgDplus,
   CardBox,
   SearchSection,
   InputForm,
@@ -25,6 +26,9 @@ import data from "../../data/serviceData";
 
 import Imgfundo from "../../images/fundoXD.jpg";
 import Imgfundo2 from "../../images/fundoXD2.jpg";
+
+import ImgDplus from "../../images/dplus.png";
+
 import Footer from "../../components/Footer";
 
 const Card = React.lazy(() => import("../../components/CardServices"));
@@ -65,8 +69,7 @@ function Home() {
 
         <p>
           Mantenha-se organizado, economize tempo e gerencie facilmente suas
-          mídias sociais com a caixa de entrada, publicação, relatórios,
-          monitoramento e ferramentas de colaboração em equipe da Agorapulse.
+          mídias sociais trabalhando com a equipe da Desainic.
         </p>
 
         <div>
@@ -157,9 +160,9 @@ function Home() {
               </li>
             </ul>
 
-            <ContantImg>
-              <img alt="Fundo" src={Imgfundo2}></img>
-            </ContantImg>
+            <ContantImgDplus>
+              <img alt="Plano D-Plus" src={ImgDplus}></img>
+            </ContantImgDplus>
           </WrapperVantagens>
 
           <Link to="/Plan">Saiba mais →</Link>

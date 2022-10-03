@@ -56,9 +56,10 @@ export const ContainerPrincipal = styled.div`
   }
 
   > p {
+    margin-top: 15px;
     max-width: 740px;
+    font-size: 22px;
     @media (max-width: 650px) {
-      margin-top: 15px;
       font-size: 18px;
     }
   }
@@ -74,7 +75,7 @@ export const ContainerPrincipal = styled.div`
       padding: 16px 38px;
 
       font-size: 26px;
-      background-color: var(--primary);
+      background-color: var(--fourth);
 
       color: white;
       border: 1px solid rgba(128, 128, 128, 0.1);
@@ -194,6 +195,18 @@ export const ContantImg = styled.div`
   margin-bottom: 40px;
 `;
 
+export const ContantImgDplus = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  > img {
+    max-width: 400px;
+    width: 100%;
+  }
+`;
+
 export const WrapperServices = styled.div`
   max-width: 1240px;
   display: flex;
@@ -219,10 +232,10 @@ export const WrapperServices = styled.div`
 
   > h2 {
     color: #333c43;
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 700;
     text-align: center;
-    max-width: 840px;
+    max-width: 560px;
 
     @media (max-width: 650px) {
       padding: 0 10px;
@@ -578,7 +591,10 @@ export const WrapperVantagens = styled.div`
   display: flex;
   width: 100%;
 
-  padding: 40px 0px 40px 80px;
+  padding: 10px 0px 20px 80px;
+
+  justify-content: center;
+  align-items: center;
 
   @media (max-width: 768px) {
     padding: 40px 60px 40px 60px;
@@ -646,7 +662,7 @@ export const WrapperCommunity = styled.div`
     font-weight: 500;
     font-size: 20px;
     padding: 0 15px;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
     color: #444;
   }
 

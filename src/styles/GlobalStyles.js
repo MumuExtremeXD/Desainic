@@ -2,8 +2,6 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 
-
- 
 html {
     scroll-behavior: smooth;
   }
@@ -54,7 +52,7 @@ html {
     --primary:#7f2ff2;
     --secondary:#FFF;
     --third:#7f2ff2;
-    --fourth:#00a2ff;
+    --fourth:#f46c0f;
     --five:#e8315c;
     --blue: #008ffc;
     --black:#222222;

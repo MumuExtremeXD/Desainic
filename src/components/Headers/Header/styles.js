@@ -58,15 +58,13 @@ export const EffectOverlay = styled.div`
 `;
 
 export const Content = styled.div`
-  max-width: 1440px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 15px 15px 15px 5px;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  max-width: 1020px;
 
   @media (max-width: 800px) {
     padding: 15px 15px 15px 5px;
@@ -174,34 +172,6 @@ export const Ul = styled.ul`
         transform: scale(1.06);
       }
     }
-
-    > a {
-      width: 100%;
-      display: flex;
-      justify-content: flex-end;
-
-      > button {
-        max-width: 180px;
-        background: #7cb407;
-
-        outline: none;
-        border: none;
-
-        border-radius: 4px;
-        padding: 10px 0px;
-        width: 100%;
-
-        transition: all 0.2s ease;
-
-        outline: none;
-        border: none;
-        font-size: 22px;
-
-        color: white;
-        cursor: pointer;
-        font-weight: 500;
-      }
-    }
   }
 
   > li {
@@ -217,22 +187,7 @@ export const Ul = styled.ul`
       text-decoration: none;
 
       &:hover {
-        color: var(--primary);
-      }
-    }
-    > button {
-      border: none;
-      font-weight: 500;
-
-      margin-left: 25px;
-      background: transparent;
-
-      color: var(--primary);
-
-      cursor: pointer;
-
-      &:hover {
-        color: var(--primary);
+        color: var(--third);
       }
     }
   }
@@ -267,11 +222,45 @@ export const Ul = styled.ul`
       font-size: 25px;
       color: var(--black);
     }
+  }
 
-    > button {
-      background: transparent;
-      font-size: 22px;
-      color: var(--primary);
+  > li:last-child {
+    > a {
+      border-radius: 46px;
+      padding: 16px 38px;
+
+      font-size: 26px;
+      background-color: var(--fourth);
+
+      color: white;
+      border: 1px solid rgba(128, 128, 128, 0.1);
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+      @media (max-width: 650px) {
+        font-size: 20px;
+      }
+
+      @media (max-width: 350px) {
+        font-size: 14px;
+      }
+    }
+
+    > a,
+    > a:active,
+    > a:visited {
+      font-size: 18px;
+      font-weight: 500;
+      margin-left: 25px;
+      transition: all 0.3s;
+
+      text-decoration: none;
+
+      color: #fff;
+
+      &:hover {
+        color: #fff;
+        background-color: var(--primary);
+      }
     }
   }
 
@@ -291,6 +280,46 @@ export const UlDesktop = styled.ul`
   padding: 5px 10px 5px 10px;
 
   transition: all 0.4s ease;
+
+  > li:last-child {
+    > a {
+      border-radius: 46px;
+      padding: 16px 38px;
+
+      font-size: 26px;
+      background-color: var(--fourth);
+
+      color: white;
+      border: 1px solid rgba(128, 128, 128, 0.1);
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+      @media (max-width: 650px) {
+        font-size: 20px;
+      }
+
+      @media (max-width: 350px) {
+        font-size: 14px;
+      }
+    }
+
+    > a,
+    > a:active,
+    > a:visited {
+      font-size: 18px;
+      font-weight: 500;
+      margin-left: 25px;
+      transition: all 0.3s;
+
+      text-decoration: none;
+
+      color: #fff;
+
+      &:hover {
+        color: #fff;
+        background-color: var(--primary);
+      }
+    }
+  }
 
   > li {
     list-style: none;
@@ -347,7 +376,7 @@ export const UlDesktop = styled.ul`
       color: #888388;
 
       &:hover {
-        color: var(--primary);
+        color: var(--fourth);
       }
     }
   }

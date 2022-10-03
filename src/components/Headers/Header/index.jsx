@@ -14,7 +14,7 @@ import {
 import { CgMenuRight } from "react-icons/cg";
 import { IoMdCloseCircle } from "react-icons/io";
 
-import logo from "../../../images/logo.png";
+import logo from "../../../images/LogoAlta.png";
 
 const scrollThreshold = 1;
 
@@ -66,20 +66,14 @@ function Header() {
           <li>
             <Link to={"../D-plus"}>D-Plus</Link>
           </li>
-
-          <li>
-            <a
-              href={`https://api.whatsapp.com/send?phone=5515996159898&text=Olá!`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button type="button">Fale Conosco</button>
-            </a>
-          </li>
         </Ul>
 
         <DivMenuDesktop>
           <UlDesktop className={classes}>
+            <li>
+              <Link to={"../"}>Início</Link>
+            </li>
+
             <li>
               <Link to={"../Servicos"}>Serviços</Link>
             </li>

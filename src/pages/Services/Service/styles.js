@@ -73,7 +73,7 @@ export const ServiceImg = styled.div`
       border-radius: 8px;
       cursor: pointer;
       width: 100%;
-      max-width: 680px;
+      max-width: 740px;
       object-fit: cover;
     }
 
@@ -218,11 +218,11 @@ export const ServiceInfo = styled.div`
   }
 
   > p {
-    max-width: 850px;
+    max-width: 1030px;
     margin: 10px 0px 0px;
 
     padding: 1px 0px;
-    font-size: 16px;
+    font-size: 19px;
 
     text-align: justify;
     color: #555355;
@@ -384,9 +384,10 @@ export const WrapperDplus = styled.div`
 
 export const WrapperVantagens = styled.div`
   display: flex;
+  justify-content: center;
   width: 100%;
 
-  padding: 40px 0px 40px 80px;
+  padding: 40px 0px 20px 80px;
 
   @media (max-width: 768px) {
     padding: 40px 30px 0px 30px;
@@ -425,18 +426,16 @@ export const WrapperVantagens = styled.div`
   }
 `;
 
-export const ContantImg = styled.div`
+export const ContantImgDplus = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 
   > img {
-    max-width: 1240px;
+    max-width: 400px;
     width: 100%;
   }
-
-  margin-bottom: 40px;
 `;
 
 export const UlProduct = styled.ul`

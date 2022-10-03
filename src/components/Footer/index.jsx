@@ -1,6 +1,5 @@
 /* eslint-disable react/jsx-no-target-blank  */
 
-// XD
 import React from "react";
 
 import { Container, Wrapper, Row, Column, Copyright } from "./styles";
@@ -38,7 +37,7 @@ function Footer() {
 
               <li>
                 <a
-                  href={"https://www.instagram.com/"}
+                  href={"https://www.instagram.com/desainic"}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -51,7 +50,7 @@ function Footer() {
 
               <li>
                 <a
-                  href={"https://www.linkedin.com/company/"}
+                  href={"https://www.linkedin.com/company/desainic"}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -65,7 +64,7 @@ function Footer() {
 
               <li>
                 <a
-                  href={"https://www.facebook.com/"}
+                  href={"https://www.facebook.com/desainic"}
                   target="_blank"
                   rel="noreferrer"
                 >
