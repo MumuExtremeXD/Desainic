@@ -4,12 +4,13 @@ import {
   Container,
   ContainerPrincipal,
   ContantImg,
+  ContantImg2,
   ContainerText,
-  WrapperVantagens,
   ContainerCta,
 } from "./styles";
 
-import Imgfundo from "../../images/fundoXD2.jpg";
+import Imgfundo1 from "../../images/fundoXD3.jpg";
+import Imgfundo2 from "../../images/fundoXD4.jpg";
 
 import Header from "../../components/Headers/Header";
 import Footer from "../../components/Footer";
@@ -20,40 +21,22 @@ function Plan() {
       <Header />
 
       <ContainerPrincipal>
-        <h1>Com o plano D-PLUS</h1>
+        <h1>D-PLUS</h1>
 
         <p>
           Mantenha-se organizado, economize tempo e gerencie facilmente suas
           mídias sociais com a caixa de entrada, publicação, relatórios,
-          monitoramento e ferramentas de colaboração em equipe da Agorapulse.
+          monitoramento e ferramentas.
         </p>
-
-        <div>
-          <a
-            href={`https://api.whatsapp.com/send?phone=5515996439461&text=Oi`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Contratar
-          </a>
-        </div>
       </ContainerPrincipal>
 
       <ContantImg>
-        <img alt="Fundo" src={Imgfundo}></img>
+        <img alt="Fundo" src={Imgfundo1}></img>
       </ContantImg>
 
       <ContainerText>
-        <h1>Assuma o controle de suas mídias sociais</h1>
+        <h1>Benefícios</h1>
 
-        <p>
-          Mantenha-se organizado, economize tempo e gerencie facilmente suas
-          mídias sociais com a caixa de entrada, publicação, relatórios,
-          monitoramento e ferramentas de colaboração em equipe da Agorapulse.
-        </p>
-      </ContainerText>
-
-      <WrapperVantagens>
         <ul>
           <li>
             <strong>DESCONTO</strong> de 10% em todos os serviços
@@ -77,14 +60,20 @@ function Plan() {
           </li>
         </ul>
 
-        <ContantImg>
-          <img alt="Fundo" src={Imgfundo}></img>
-        </ContantImg>
-      </WrapperVantagens>
+        <div>
+          <a
+            href={`https://www.asaas.com/c/022571173933`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Contratar
+          </a>
+        </div>
+      </ContainerText>
 
-      <ContantImg>
-        <img alt="Fundo" src={Imgfundo}></img>
-      </ContantImg>
+      <ContantImg2>
+        <img alt="Fundo que ilustra a doação" src={Imgfundo2}></img>
+      </ContantImg2>
 
       <ContainerCta>
         <p>
@@ -94,7 +83,7 @@ function Plan() {
 
         <div>
           <a
-            href={`https://api.whatsapp.com/send?phone=5515996918496&text=Oi`}
+            href={`https://www.asaas.com/c/022571173933`}
             target="_blank"
             rel="noreferrer"
           >

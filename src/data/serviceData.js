@@ -1,6 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 
-import ImgEsmeralda1 from "../images/teste.png";
+import ImgEsmeralda1 from "../images/teste.jpg";
 
 export default [
   {
