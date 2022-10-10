@@ -675,7 +675,7 @@ export const WrapperCommunity = styled.div`
     font-size: 22px;
 
     padding: 25px;
-    background-color: var(--primary);
+    background-color: var(--fourth);
 
     margin-bottom: 35px;
 

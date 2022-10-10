@@ -190,7 +190,7 @@ function Home() {
           <img alt="Fundo" src={Imgfundo2}></img>
         </ContantImg>
 
-        <Link to="/Plan">Saiba mais →</Link>
+        <Link to="/Comunidade">Saiba mais →</Link>
       </WrapperCommunity>
 
       <Footer />

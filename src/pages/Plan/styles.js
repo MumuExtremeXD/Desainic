@@ -173,20 +173,25 @@ export const ContainerText = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    padding-left: 36px;
     margin-top: 25px;
-    list-style: none;
+
     text-align: left;
     color: #fff;
-    max-width: 440px;
+    max-width: 480px;
+
+    @media (max-width: 768px) {
+      padding-left: 0px;
+    }
 
     > li {
       font-size: 21px;
-      margin-bottom: 12px;
+
+      margin-bottom: 26px;
 
       @media (max-width: 768px) {
         font-size: 18px;
-        margin-bottom: 12px;
+        margin-bottom: 26px;
       }
     }
   }
