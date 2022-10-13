@@ -4,6 +4,8 @@ import loadable from "@loadable/component";
 
 import Home from "../pages/Home";
 
+const Community = loadable(() => import("../pages/Community"));
+
 const AllServices = loadable(() => import("../pages/Services/AllServices"));
 const UniService = loadable(() => import("../pages/Services/Service"));
 
@@ -23,6 +25,9 @@ function routes() {
 
       {/* Serviço */}
       <Route path="/servico/:id" element={<UniService />} />
+
+      {/* Comunidade */}
+      <Route path="/Comunidade" element={<Community />} />
 
       {/* Plano */}
       <Route path="/D-plus" element={<Plan />} />

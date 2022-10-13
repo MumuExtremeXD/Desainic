@@ -24,8 +24,8 @@ import { BiSearchAlt } from "react-icons/bi";
 
 import data from "../../data/serviceData";
 
-import Imgfundo from "../../images/fundoXD.jpg";
-import Imgfundo2 from "../../images/fundoXD2.jpg";
+import Imgfundo from "../../images/fundo.jpg";
+import Imgfundo2 from "../../images/fundoXD6.jpg";
 
 import ImgDplus from "../../images/dplus.png";
 
