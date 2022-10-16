@@ -13,11 +13,8 @@ import {
 } from "./styles";
 
 import Header from "../../components/Headers/Header";
-
 import Imgfundo from "../../images/fundoXD6.jpg";
-
 import ImgDplus from "../../images/dplus.png";
-
 import Footer from "../../components/Footer";
 
 function Community() {
@@ -64,13 +61,12 @@ function Community() {
                 <strong>PRIORIDADE</strong> nos trabalhos
               </li>
               <li>
-                <strong>DIVULGAÇÃO GRATUITA</strong>
-                em nossas redes sociais (1 Publicação + 1 Stories por mês)
+                <strong>DIVULGAÇÃO GRATUITA</strong> em nossas redes sociais (1
+                Publicação + 1 Story por mês)
               </li>
               <li>
-                <strong>AUXÍLIO</strong> na melhoria do conteudo
+                <strong>AUXÍLIO</strong> na melhoria do conteúdo
               </li>
-              <li>Planilha organizacional de publicações</li>
               <li>
                 <strong>4 ALTERAÇÕES</strong> sem cobrar
               </li>

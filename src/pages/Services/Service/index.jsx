@@ -179,14 +179,12 @@ function Service() {
                         <strong>PRIORIDADE</strong> nos trabalhos
                       </li>
                       <li>
-                        <strong>DIVULGAÇÃO GRATUITA</strong>
-                        em nossas redes sociais (1 Publicação + 1 Stories por
-                        mês)
+                        <strong>DIVULGAÇÃO GRATUITA</strong> em nossas redes
+                        sociais (1 Publicação + 1 Story por mês)
                       </li>
                       <li>
-                        <strong>AUXÍLIO</strong> na melhoria do conteudo
+                        <strong>AUXÍLIO</strong> na melhoria do conteúdo
                       </li>
-                      <li>Planilha organizacional de publicações</li>
                       <li>
                         <strong>4 ALTERAÇÕES</strong> sem cobrar
                       </li>
