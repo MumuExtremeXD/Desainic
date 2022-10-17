@@ -164,7 +164,7 @@ function Home() {
             </ContantImgDplus>
           </WrapperVantagens>
 
-          <Link to="/Plan">Saiba mais →</Link>
+          <Link to="/D-plus">Saiba mais →</Link>
 
           <h5>Além disso, você contribui para criação de um mundo melhor!</h5>
           <p>

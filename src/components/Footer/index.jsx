@@ -37,7 +37,7 @@ function Footer() {
 
               <li>
                 <a
-                  href={"https://www.instagram.com/desainic"}
+                  href={"https://www.instagram.com/desainic.oficial/"}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -64,7 +64,9 @@ function Footer() {
 
               <li>
                 <a
-                  href={"https://www.facebook.com/desainic"}
+                  href={
+                    "https://www.facebook.com/people/Desainic/100084489894770/"
+                  }
                   target="_blank"
                   rel="noreferrer"
                 >

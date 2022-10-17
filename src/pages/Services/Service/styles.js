@@ -365,6 +365,10 @@ export const WrapperDplus = styled.div`
       background-color: #7a66f0;
       color: #fff;
     }
+
+    @media (max-width: 1024px) {
+      margin-top: 35px;
+    }
   }
 
   > p {
